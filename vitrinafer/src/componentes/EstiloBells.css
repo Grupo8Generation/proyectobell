@@ -1,0 +1,47 @@
+:root,
+[dara-bs-theme=light]{
+--bs-danger: #48114D;}
+
+
+
+#estiloBell{
+    background-color: black;
+    background-image: url(src/img/fondo_estiloBell.png);
+    height: 884px;
+
+}
+
+.EstiloBellH{
+    background-color: var(--bs-danger);
+    color:white;
+}
+
+.Regala{
+    color: #48114D;
+}
+
+.Conoce{
+    color: #48114D;
+}
+
+.Buscas{
+    color: #48114D;
+}
+
+.text-start{
+    padding-top: 250px;
+    padding-left: 130px;
+}
+.btn-estilo{
+    color:white;
+    background-color: #48114D;
+    width: 120px;
+    height: 50px;
+    border: #48114D;
+    border-radius: 6px;
+}
+.btn-estilo:hover{
+    color: #48114D;
+    background-color: white;
+    border:#48114D solid;
+}

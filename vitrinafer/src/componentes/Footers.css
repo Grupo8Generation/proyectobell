@@ -1,0 +1,29 @@
+
+.layout1{
+    display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+
+
+.bottom-bar {
+    background-color:#FDDBDB;
+    height: 200px;
+    color:  #48114D;
+  }
+
+  .bottom-bar-logo {
+    font-weight: bold;
+  }
+
+  .bottom-bar-link {
+    color:  #48114D;
+    text-decoration: none;
+  }
+
+  .bottom-bar-section {
+    flex-grow: 1;
+    padding: 0 20px;
+  }

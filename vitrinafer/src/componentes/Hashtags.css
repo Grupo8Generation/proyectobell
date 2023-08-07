@@ -1,0 +1,56 @@
+.hashtags{
+    display: flexbox ;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+
+
+.personalizado{
+background-color: #6F275D;
+
+
+}
+
+.personalizado span{
+background-color: white;
+color:#48114D
+
+}
+.emprendimiento{
+background-color: #48114D;
+
+}
+
+.emprendimiento span{
+background-color: white;
+color:#48114D;
+
+}
+
+.boton-form{
+
+    background-color: white;
+}
+.boton-form:hover{
+    border: white solid;
+}
+
+.boton-emp{
+background-color: white;
+   
+}
+.boton-emp:hover{
+    border: white solid;
+}
+
+.content-emp{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+
+.content-per{
+    padding-top: 60px;
+    padding-left: 30px;
+}
