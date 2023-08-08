@@ -1,0 +1,16 @@
+:root,
+[data-bs-theme=light]{
+--bs-danger: #48114D;}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
+
+
+body,html{
+    background-color:#FDDBDB;
+    font-family:'Cabin', sans-serif; 
+
+}

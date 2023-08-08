@@ -1,0 +1,17 @@
+.boton-form{
+    background-color: #6F275D ;
+    border: #6F275D;
+    color: white;
+    
+}
+
+.boton-form:hover{
+    border:#6F275D solid ;
+    background-color: white;
+    color:#6F275D;
+}
+
+.btn-cont{
+    padding-top: 70px;
+    padding-left:130px;
+}
