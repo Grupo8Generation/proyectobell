@@ -1,0 +1,15 @@
+.NavBar2{
+    background-color:#FCE3E3;
+}
+
+.nav2-item a{
+ color:#48114D;
+ font-size:24px;
+ font-weight: bold;
+}
+
+.smalltext-muted{
+    font-size: 17px;
+    font-family:'Cabin', sans-serif; 
+
+}

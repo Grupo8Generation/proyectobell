@@ -1,0 +1,19 @@
+:root,
+[data-bs-theme=light] {
+    --bs-danger: #48114D;
+}
+
+
+
+.LosMas{
+    background-image:url(src/img/fondo_cards.svg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 771px;
+}
+
+.LosMas h1, h3,a{
+    color:var(--bs-danger);
+    padding-top: 30px;
+}

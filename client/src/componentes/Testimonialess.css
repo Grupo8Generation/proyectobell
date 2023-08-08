@@ -1,0 +1,17 @@
+
+
+.testimonio{
+background-image: url("src/img/fondo_testimoniales.svg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+   
+}
+
+.content-test{
+    color:#48114D;
+    padding-top: 20px;
+    
+}

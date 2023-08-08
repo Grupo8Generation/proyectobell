@@ -1,0 +1,359 @@
+[
+   
+    {
+      "id": "chaleco_personalizado0_1",
+      "nombre": "chaleco",
+      "precio": 1000,
+      "imagenUrl": "img/chaleco/chaleco.png",
+      "categoria": {
+        "nombre": "chalecos",
+        "id": "chalecos"
+        }
+    },
+   
+    {
+      "id": "pepa_personalizado0_3",
+      "nombre": "pepa",
+      "precio": 2000,
+      "imagenUrl": "img/juguetes/pepa.png",
+      "categoria": {
+        "nombre": "amigurumis",
+        "id": "amigurumis"
+        }
+    },
+   
+    {
+      "id": "bufanda_personalizado0_4",
+      "nombre": "bufanda",
+      "precio": 1000,
+      "imagenUrl": "img/Accesorios/cuello.png",
+      "categoria": {
+        "nombre": "personalizado",
+        "id": "personalizado"
+        }
+    },
+   
+    {
+      "id": "amigurumis0_1",
+      "nombre": "Juguete sensorial Pikachu",
+      "precio": 6000,
+      "imagenUrl": "img/juguetes/pkc.png",
+      "categoria": {
+        "nombre": "amigurumis",
+        "id": "amigurumis"
+        }
+    },
+   
+    {
+      "id": "amigurumis0_2",
+      "nombre": "juguete sensorial Monstruo",
+      "precio": 6000,
+      "imagenUrl": "img/juguetes/mounstro.png",
+      "categoria": "amigurumis"
+    },
+   
+    {
+      "id": "amigurumis0_3",
+      "nombre": "Cascabel de conejo y argolla",
+      "precio": 3000,
+      "imagenUrl": "img/juguetes/conejo.png",
+      "categoria": {
+        "nombre": "amigurumis",
+        "id": "amigurumis"
+        }
+    },
+   
+    {
+      "id": "amigurumis0_4",
+      "nombre": "cascabel circular Estrella",
+      "precio": 3000,
+      "imagenUrl": "img/juguetes/casca.png",
+      "categoria": {
+        "nombre": "amigurumis",
+        "id": "amigurumis"
+        }
+    },
+   
+    {
+      "id": "amigurumis0_5",
+      "nombre": "cascabel osito",
+      "precio": 3500,
+      "imagenUrl": "img/juguetes/casosi.png",
+      "categoria": {
+        "nombre": "amigurumis",
+        "id": "amigurumis"
+        }
+    },
+   
+    {
+      "id": "otros_12",
+      "nombre": "flores artesanales girasol",
+      "precio": 6000,
+      "imagenUrl": "img/otros/girasol.png",
+      "categoria": {
+        "nombre": "otros",
+        "id": "otros"
+        }
+    },
+   
+   
+    {
+      "id": "amigurumis0_14",
+      "nombre": "coneja ",
+      "precio": 13000,
+      "imagenUrl": "img/Juguetes/coneja.png",
+      "categoria": {
+        "nombre": "amigurumis",
+        "id": "amigurumis"
+        }
+    },
+
+
+   
+    {
+      "id": "zapatitos0_1",
+      "nombre": "botas floral bordado purpe",
+      "precio": 4000,
+      "imagenUrl": "Botasfloral1.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_2",
+      "nombre": "Botas floral bordado greed",
+      "precio": 4000,
+      "imagenUrl": "Botasfloral2.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_3",
+      "nombre": "zapatillas replicas converse",
+      "precio": 4000,
+      "imagenUrl": "replicas_converse.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_4",
+      "nombre": "zapatillas replicas nike",
+      "precio": 4000,
+      "imagenUrl": "replicas_nike.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_5",
+      "nombre": "zapatillas replicas converse sin caña",
+      "precio": 4000,
+      "imagenUrl": "replicas_converse2.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_6",
+      "nombre": "zapatillas replicas adidas",
+      "precio": 4000,
+      "imagenUrl": "replicas_adidas.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_7",
+      "nombre": "botas chiporro",
+      "precio": 4500,
+      "imagenUrl": "botas_chiporro.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+   
+    {
+      "id": "zapatitos0_8",
+      "nombre": "botas básicas",
+      "precio": 3500,
+      "imagenUrl": "botas_basicas.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_9",
+      "nombre": "zapatillas replicas converse pink",
+      "precio": 5000,
+      "imagenUrl": "converse_pink.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_10",
+      "nombre": "pack baby shower",
+      "precio": 8500,
+      "imagenUrl": "img/otros/bby02.png",
+      "categoria": {
+        "nombre": "otros",
+        "id": "otros"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_11",
+      "nombre": "Pack baby shower converse",
+      "precio": 8000,
+      "imagenUrl": "shower_converse.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_12",
+      "nombre": "botas cordones",
+      "precio": 3500,
+      "imagenUrl": "botas_cordones.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_13",
+      "nombre": "pack pokemon zapatillas replicas converse",
+      "precio": 8500,
+      "imagenUrl": "pokemon_zapatillas.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "zapatitos0_14",
+      "nombre": "botas botón",
+      "precio": 8500,
+      "imagenUrl": "botas_botón.jpg",
+      "categoria": {
+        "nombre": "zapatitos",
+        "id": "zapatitos"
+        }
+    },
+   
+    {
+      "id": "chalecos0_1",
+      "nombre": "chaleco manga ancha crochet",
+      "precio": 30000,
+      "imagenUrl": "img/chaleco/chaleco3D.png",
+      "categoria": {
+        "nombre": "chalecos",
+        "id": "chalecos"
+        }
+    },
+   
+    {
+      "id": "chalecos0_2",
+      "nombre": "chaleco tri-color",
+      "precio": 40000,
+      "imagenUrl": "img/chaleco/chaleco2.png",
+      "categoria": {
+        "nombre": "chalecos",
+        "id": "chalecos"
+        }
+    },
+   
+    {
+      "id": "chalecos0_3",
+      "nombre": "chaleco 3d",
+      "precio": 20000,
+      "imagenUrl": "img/chaleco/chaleco3D.png",
+      "categoria": {
+        "nombre": "chalecos",
+        "id": "chalecos"
+        }
+    },
+   
+    {
+      "id": "chalecos0_4",
+      "nombre": "chaleco corazones",
+      "precio": 8500,
+      "imagenUrl": "img/chaleco/chalecoCora.png",
+      "categoria": {
+        "nombre": "chalecos",
+        "id": "chalecos"
+        }
+    },
+   
+   
+    {
+      "id": "chalecos0_6",
+      "nombre": "chaleco KAROL G",
+      "precio": 8000,
+      "imagenUrl": "img/chalecoBB/chalecoKG.png",
+      "categoria": {
+        "nombre": "chaleco bebe",
+        "id": "chaleco bebe"
+        }
+    },
+   
+   
+    {
+      "id": "otros0_1",
+      "nombre": "cuello reliquias de la muerte hp",
+      "precio": 3500,
+      "imagenUrl": "img/Accesorios/bufanda.png",
+      "categoria": {
+        "nombre": "personalizado",
+        "id": "personalizado"
+        }
+    },
+   
+    {
+      "id": "otros0_2",
+      "nombre": "poncho calado red",
+      "precio": 22000,
+      "imagenUrl": "img/chaleco/poncho.png",
+      "categoria": {
+        "nombre": "chalecos",
+        "id": "chalecos"
+        }
+    },
+   
+    {
+      "id": "otros0_3",
+      "nombre": "cuellos varios",
+      "precio": 3000,
+      "imagenUrl": "cuellos varios.jpg",
+      "categoria": {
+        "nombre": "otros",
+        "id": "otros"
+        }
+    }
+   
+   
+]

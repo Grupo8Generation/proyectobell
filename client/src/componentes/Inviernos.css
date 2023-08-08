@@ -1,0 +1,12 @@
+.invierno-cont{
+    background-image: url(src/img/fondo_invierno.svg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.invierno-text{
+    padding-top: 20px;
+}
