@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-const MONGO_URI = 'mongodb+srv://mseverinoortega:oUYoS2LP3OSTdpIT@cluster0.mdxvb6c.mongodb.net/?retryWrites=true&w=majoritymongodb+srv://mseverinoortega:<oUYoS2LP3OSTdpIT>@cluster0.xb7s4iv.mongodb.net/Todos_productos';
+const MONGO_URI ="mongodb+srv://mseverinoortega:oUYoS2LP3OSTdpIT@cluster0.mdxvb6c.mongodb.net/Todos_productos";
 
 mongoose.connect(MONGO_URI, { 
   useNewUrlParser: true, 

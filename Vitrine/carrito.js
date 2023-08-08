@@ -24,7 +24,7 @@ function cargarProductosCarrito() {
         productosEnCarrito.forEach(producto => {
     
             const div = document.createElement("div");
-            div.classList.add("carrito-producto");
+            div.classList.add("carrito-products");
             div.innerHTML = `
                 <img class="carrito-producto-imagen" src="${producto.imagenUrl}" alt="${producto.nombre}">
                 <div class="carrito-producto-titulo">
@@ -141,3 +141,4 @@ function comprarCarrito() {
     window.location.href = "pasarela/pasarela1.html";
 
 }
+
