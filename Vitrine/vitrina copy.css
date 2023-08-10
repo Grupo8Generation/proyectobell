@@ -1,0 +1,299 @@
+/* Estilos personalizados */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Cabin', sans-serif;
+font-size: 20px;
+margin-top: 10px;  
+}
+
+body{
+background-color: #F9EAEA;
+
+}
+main{
+  background-color: #F9EAEA;
+
+}
+
+h1,h2,h3,h5,h6{
+text-align: left;
+color: #48114D;
+font-family: "Cabin", sans-serif;
+font-weight: bold;
+
+} 
+h5, .card-title{
+color: #48114D;
+}
+
+.card-text{
+text-align: left;
+color: #48114D;
+font-family: "Cabin", sans-serif;
+font-weight: bold;
+font-size: x-large;
+}
+
+/* Cambiarle el color a los links y estilos para Navbars */
+a{
+color: #48114D;
+}
+.nav .nav-link{
+color: #48114D;
+
+}
+.nav-item,
+.nav-item:hover{
+color: #48114D;
+transform:scale(1.1)
+
+
+}
+
+.nav{
+color: #48114D;
+background-color:#FCE3E3;
+font-family: "Cabin", sans-serif;
+font-weight: bold;
+right: 50%;
+justify-content: center;
+height: 90px;
+margin: 0;
+box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 0px;
+}
+.text{
+font-size: medium;
+font-weight: lighter;
+
+}
+
+
+.container-fluid{
+color: white;
+font-family: "Cabin", sans-serif;
+font-size: x-large;
+font-weight: bold;
+background-color: #6F275D;
+height: 65px;
+margin: 1px;
+padding: -20px;
+}
+/* Cards */
+
+.row{
+padding: 70px;
+}
+.card-img-top{
+border-radius: 50px;
+padding: 20px;
+max-height:300px;
+
+}
+
+.card{
+border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+max-height: 550px;
+box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 0px;
+}
+
+.card-body{
+padding: 25px;
+margin-top: -20px;
+}
+
+/*botones*/
+#compraYalg {
+
+font-family: 'Cabin', sans-serif;
+font-weight: bold;
+background-color: #6F275D;
+color: white;
+width: 180px;
+border-radius: 6px;
+padding-top: 0px;
+
+}
+
+/* este es el estilo para el botón de oferta
+.btn2{
+text-align:center;
+color: white;
+background-color: #6F275D;
+border-radius: 20px 0 0 0;
+width: 200px;
+height: 50px;
+padding: 15px;
+}*/
+
+.btn{
+border-color: #48114D;
+width: 90px;
+background-color: white;
+border-radius: 6px;
+border-width: 2px;
+
+}
+
+
+.barra-horizontal{
+position: absolute;
+top: 87%;
+left: 0;
+width: 100%;
+height: 14px;
+background-color: #48114D;   
+}
+
+
+/* fondo */
+body{
+background-color: #F9EAEA;
+}
+
+.header{
+background-color:white;
+display: flex;
+justify-content: space-between;
+align-items:start;
+height: 120px;
+padding: 5px 10%;
+margin: -20px;
+}
+
+.header .logo{
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.header .logo img{    
+height: 70px;
+width: auto;
+transition: all 0.3s;
+}
+
+/* automento gradual */
+.header .logo img:hover{
+transform: scale(1.2);
+}
+
+/* stylo a las letras de navegacion */
+.header .nav-links{
+list-style: none;
+display: flex;
+margin-right: auto;
+}
+
+.header .nav-links li{ 
+display: inline-block;
+padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+transform: scale(1.1);
+}
+
+.header .nav-links a{
+font-weight: 700;
+color: #602F6B;
+text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+color: grey;
+}
+
+.header .btn button,
+.header .menu button
+{
+font-weight: 700;
+color: white;
+padding: 9px 25px;
+background: #602F6B; 
+border: none;
+border-radius: 11px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+margin-left: 10px;
+}
+
+.header .btn button:hover,
+.header .menu button:hover{
+background:rgb(225, 194, 231);
+color: #602F6B;
+transform:scale(1.1)
+}
+
+@media screen and (max-width: 800px){
+.nav-links, .btn{
+display: none;
+}
+.menu {
+display: inherit;
+}
+}
+
+body {
+  font-family: 'Cabin', sans-serif; /* Utilizar la fuente Cabin como fuente predeterminada */
+}
+
+.bottom-bar {
+  background-color:#F9EAEA;
+  height: 200px;
+  color:  #48114D;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 0px;
+}
+
+.bottom-bar-logo {
+  font-weight: bold;
+}
+
+.bottom-bar-link {
+  color:  #48114D;
+  text-decoration: none;
+}
+
+.bottom-bar-section {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+/* Pequeño ajuste para dispositivos móviles */
+@media (max-width: 767px) {
+  .bottom-bar-section {
+    padding: 0 10px;
+  }
+}
+/* Carrito op. */
+
+
+
+/* estilo al botón agregar de vitrina */
+.producto-agregar {
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 1px;
+    color: rgb(105, 48, 105);
+    background-color: #F9EAEA;
+    border-radius: 8px;
+    font-family: "Cabin", sans-serif;
+  
+  }
+  /* Estilo para el botón en hover */
+  .producto-agregar:hover {
+    background-color: rgb(105, 48, 105);
+    color: #F9EAEA;
+    transition: all 0.1s ease 0s;
+    transform: scale(1.1); /* Aplicar un efecto de zoom al 110% (1.1 veces el tamaño original) */
+  }
+
+.producto-agregar{
+    border-color: #48114D;
+    width: 90px;
+    background-color: white;
+  
+}
