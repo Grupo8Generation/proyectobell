@@ -8,7 +8,7 @@ import { Vitrina } from './pages/Carrito/Vitrina'
 
 export const App = () => {
   return (<>
-<NavBar/>
+
  <Routes>
 
     <Route path='/' element={ <Home></Home>}></Route>

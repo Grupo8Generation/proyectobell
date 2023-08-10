@@ -26,9 +26,6 @@ Quitar del carrito
 
 
 </div>
-
-
 )
-
 
 }

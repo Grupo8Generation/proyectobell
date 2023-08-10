@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import Navbar2 from "./Navbar2"
 import { Card } from "@mui/material"
+import NavBar from "../../componentes/NavBar"
 
 export const Vitrina = () => {
 
@@ -24,6 +25,7 @@ export const Vitrina = () => {
 
     return <>
         <div>
+            <NavBar/>
             <Navbar2 />
         </div>
         <h1>Compras:</h1>
