@@ -30,11 +30,13 @@ catch(error){
     return <>
         <div>
             <NavBar/>
+            <div className="container-fluid text-center tienda h1">
+                Tienda
+            </div>
             <Navbar2 />
         </div>
         <div className="container-fluid vitrina-productos">
-        <h1>Compras:</h1>
-        <hr />
+        
         {productos.map((producto) => (
              <Card 
              key={producto.id}

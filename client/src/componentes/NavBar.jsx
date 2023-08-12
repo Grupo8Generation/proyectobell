@@ -25,10 +25,10 @@ const NavBar = () => {
                                 <a className="nav-link " href="#Hashtagss">Pedido personalizado</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#">Envíos</a>
+                                <NavLink to="/pasarela" className="nav-link " href="#">Envíos</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/pasarela' className="nav-link " >Preguntas frecuentes</NavLink>
+                                <NavLink to='/preguntasFrecuentes' className="nav-link " >Preguntas frecuentes</NavLink>
                             </li>
 
 
