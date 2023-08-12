@@ -1,56 +1,79 @@
-.hashtags{
-    display: flexbox ;
+.hashtags {
+    display: flexbox;
     flex-direction: column-reverse;
     flex-wrap: wrap;
 }
 
 
 
-.personalizado{
-background-color: #6F275D;
+.personalizado {
+    background-color: #6F275D;
 
 
 }
 
-.personalizado span{
-background-color: white;
-color:#48114D
-
-}
-.emprendimiento{
-background-color: #48114D;
-
+.personalizado span {
+    background-color: white;
+    color: #48114D
 }
 
-.emprendimiento span{
-background-color: white;
-color:#48114D;
+.emprendimiento {
+    background-color: #48114D;
 
 }
 
-.boton-form{
+.emprendimiento span {
+    background-color: white;
+    color: #48114D;
+
+}
+
+.boton-form {
 
     background-color: white;
 }
-.boton-form:hover{
+
+.boton-form:hover {
     border: white solid;
 }
 
-.boton-emp{
-background-color: white;
-   
+.boton-emp {
+    background-color: white;
+
 }
-.boton-emp:hover{
+
+.boton-emp:hover {
     border: white solid;
 }
 
-.content-emp{
+.content-emp {
     padding-top: 60px;
     padding-left: 30px;
 }
 
 
-.content-per{
+.content-per {
     padding-top: 60px;
     padding-left: 30px;
+}
+
+.link-insta-hash {
+
+    color: white;
+    background-color: #48114D;
+    width: 120px;
+    height: 50px;
+    border: #48114D;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+
+.link-insta-hash:hover {
+    color: #48114D;
+    background-color: white;
+    border: #48114D solid;
+}
+.bi-instagram{
+    padding-left: 5px;
 }
