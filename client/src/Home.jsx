@@ -8,7 +8,7 @@ import MasVendido from "./componentes/MasVendido"
 import NavBar from "./componentes/NavBar"
 import Nosotros from "./componentes/Nosotros"
 import Testimoniales from "./componentes/Testimoniales"
-import Testimoniocar from "./componentes/Testimonio-carrusel"
+import Testimoniocar from "./componentes/Testimoniocar"
 
 
 
