@@ -7,7 +7,8 @@
 
 .navbar {
     background-color: white;
-    padding-left:px;
+    padding-left: 180px;
+ 
    
 }
 
@@ -37,5 +38,13 @@ div nav img {
 .btn:hover {
     color: white;
     background-color: #48114D;
+}
+
+.navbar-toggler{
+    margin: 30px;
+    margin-right: 100px;
+}
+.navbar-collapse{
+    padding-left: px;
 }
 
