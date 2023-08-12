@@ -19,9 +19,10 @@ function CarritoButton() {
     return (
         <div className="carrito-button">
             <button onClick={toggleCarrito}>
-                            <Badge badgeContent={0} color="secondary">
-                                <ShoppingCart color="action" />
-                            </Badge></button>
+            <Badge badgeContent={0} color="primary">
+            <ShoppingCart color='action'/>
+            </Badge>
+            </button>
             {mostrarCarrito && <CarritoContenido/>}
         </div>
     )
