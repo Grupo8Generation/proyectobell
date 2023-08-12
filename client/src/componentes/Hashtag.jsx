@@ -27,7 +27,7 @@ const Hashtag = () => {
 
                 <img src="src/img/repartidor_img.png" className="img-fluid col-lg-6 order-lg-3 col-sm-12 col-md-12 order-sm-4 order-md-4 p-0 m-0" alt=""></img>
 
-                <div className="emprendimiento col-lg-6 order-lg-4 col-sm-12 col-md-12  order-md-3 order-sm-3 p-5">
+                <div className="emprendimiento col-lg-6 order-lg-4 col-sm-12 order-sm-3 col-md-12  order-md-3  p-5">
                     <div className='content-emp'>
                         <span className="h1 ">#Emprendimientos</span>
                         <br />

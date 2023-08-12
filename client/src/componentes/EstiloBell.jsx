@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const EstiloBell = () =>{
 return<>
 <div className="container-fluid " id="estiloBell">
-<div className=" text-start container-fluid ">
+<div className=" text-start container-fluid px-5  ">
     <span className=" EstiloBellH fw-bold display-4">#EstiloBell </span> 
     <br></br>
     <span className=" Regala fw-bold display-5">Regala cariño</span>

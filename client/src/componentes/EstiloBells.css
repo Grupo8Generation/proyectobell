@@ -5,7 +5,7 @@
 
 
 #estiloBell{
-    background-color: black;
+    background-color: #FDDBDB;
     background-image: url(src/img/fondo_estiloBell.png);
     height: 884px;
 
@@ -30,7 +30,7 @@
 
 .text-start{
     padding-top: 250px;
-    padding-left: 130px;
+   padding-left: 300px;
 }
 
 
