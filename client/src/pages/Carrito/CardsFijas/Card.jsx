@@ -1,5 +1,5 @@
 import './Cards.css'
-import amigurumiconejitoImage from "./img/amigurumiconejito.jpg"
+import amigurumiconejitoImage from "./BeLLImg600/Frame48.png"
 const Card = () => {
 
 
