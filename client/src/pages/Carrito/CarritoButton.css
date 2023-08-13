@@ -1,11 +1,26 @@
 .carrito-button {
-    position: relative;
-    display: inline-block;
-    background-color:white;
-    color: #48114D;
-    padding-left: 130px;
-    padding-top: 15px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  color: #48114D;
+  padding-left: 40px;
+ 
 
-   
-  }
-  
+
+}
+
+
+
+.carrito-button button {
+  display: flex;
+  width: 92px;
+  height: 48px;
+  padding: 7px 29px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 3px solid var(--p-1-purple-strong, #48114D);
+  background-color: #48114D;
+}
+

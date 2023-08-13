@@ -1,0 +1,75 @@
+.card-img-top {
+    display: inline-flex;
+    height: 180px;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 5.393px solid var(--p-1-purple-strong, #48114D);
+    background: lightgray 50% / cover no-repeat;
+
+}
+
+.card {
+    border-radius: 9.888px;
+    background: var(--n-white, #FFF);
+    box-shadow: 0px 3.595505714416504px 3.595505714416504px 0px rgba(0, 0, 0, 0.32);
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-body {
+    padding: 25px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: flex-start;
+  
+}
+
+#compraYalg {
+    display: flex;
+    width: 165.393px;
+    height: 43.146px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5.393px;
+    background: #6F275D;
+    color: white;
+}
+
+#compraYalg:hover {
+    color: #6F275D;
+    background-color: white;
+    border: #6F275D solid;
+}
+
+.card-hashtag {
+    color: var(--p-1-purple-strong, #48114D);
+    text-align: center;
+    font-size: 13.483px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title {
+    color: var(--p-1-purple-strong, #48114D);
+    text-align: center;
+    font-size: 16.854px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-text {
+    color: var(--p-1-purple-strong, #48114D);
+    text-align: center;
+    font-size: 32.917px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 0px;
+}
