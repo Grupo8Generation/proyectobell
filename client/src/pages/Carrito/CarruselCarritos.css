@@ -1,0 +1,19 @@
+/* Estilos CSS */
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 1rem);
+    margin-right: 2rem;
+    /* Agrega otros estilos para tus tarjetas */
+  }
+  
+  /* Estilos para el carrusel */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    /* Agrega estilos para los controles del carrusel si es necesario */
+  }
+  

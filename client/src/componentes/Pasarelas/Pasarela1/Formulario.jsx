@@ -52,7 +52,7 @@ function Formulario() {
             </div>
             <div className="col-md-4 p-2">
                 <p className="h4">Comuna </p>
-                <select name="comuna"className="form-select" aria-label="Default select example">
+                <select defaultValue="opcion2" name="comuna" className="form-select">
                     <option selected>Open this select menu</option>
                     <option value="1">Estacion Central </option>
                     <option value="2">Two</option>

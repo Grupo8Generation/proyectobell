@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CarritoContenido from "./CarritoContenido";
 import Badge from '@mui/material/Badge';
-import ShoppingCart from '@mui/icons-material/ShoppingCart';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './CarritoContenido.css'
 import './CarritoButton.css'
 
@@ -20,7 +20,7 @@ function CarritoButton() {
         <div className="carrito-button">
             <button onClick={toggleCarrito}>
             <Badge badgeContent={0} color="primary">
-            <ShoppingCart color='action'/>
+            <ShoppingCartIcon style={{ color: 'white' }}/>
             </Badge>
             </button>
             {mostrarCarrito && <CarritoContenido/>}
