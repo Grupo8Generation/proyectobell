@@ -10,7 +10,7 @@ const CardFija3 = () => {
       </div>
       <div className="card-body">
         <h6 className="card-hashtag"> #Amigurumi</h6>
-        <h5 className="card-title">Cascabel de conejo y argolla </h5>
+        <h5 className="card-title">Cascabel argolla </h5>
         <h3 className="card-text"><strong>$6.000</strong></h3>
         <a id="compraYalg" className="btn" href="destino.html" role="button">Comprar</a>
       </div>

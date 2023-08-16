@@ -9,7 +9,7 @@ fetch('/productos')
     // Iterar sobre los datos y crear tarjetas para cada producto
     data.forEach(producto => {
       const card = document.createElement('div');
-      card.classList.add('card');
+      card.classNameList.add('card');
       card.innerHTML = `
         <h2>${producto.title}</h2>
         <p>${producto.description}</p>

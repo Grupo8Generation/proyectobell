@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import './Footers.css';
 
 const Footer = () => {
@@ -22,7 +23,7 @@ const Footer = () => {
                         {/* Contenido de la tercera sección */}
                         <ul className="list-unstyled mb-0">
                             <li><a href="#" className="bottom-bar-link"><b>Preguntas frecuentes</b></a></li>
-                            <li><a href="#" className="bottom-bar-link"><b>Legal</b></a></li>
+                            <li><Link to="/aspectosLegales"><b>Legal</b></Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-12 col-sm-12 bottom-bar-section">

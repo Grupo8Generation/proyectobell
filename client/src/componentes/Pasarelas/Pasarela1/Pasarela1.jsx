@@ -1,3 +1,4 @@
+import Productos from '../../../Productos'
 import Footer from '../../Footer'
 import Breadcrumb from './Breadcrumb'
 import Formulario from './Formulario'
@@ -14,6 +15,7 @@ export const Pasarela1 = () => {
                 </div>
 
                 <div className="product-side col-6"></div>
+                <Productos/>
             </div>
 
         </div>

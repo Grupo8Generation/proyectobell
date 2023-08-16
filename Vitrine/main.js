@@ -17,7 +17,7 @@ const numerito = document.querySelector("#numerito");
 
 
 botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
-    aside.classList.remove("aside-visible");
+    aside.classNameList.remove("aside-visible");
 }))
 
 
@@ -28,19 +28,19 @@ function cargarProductos(productosElegidos) {
     productosElegidos.forEach(producto => {
 
         const div = document.createElement("div");
-        div.classList.add("producto");
+        div.classNameList.add("producto");
         div.innerHTML = `
-        <div class="col">
-                <div class="card" style="width: 18rem;">
+        <div className="col">
+                <div className="card" style="width: 18rem;">
                     <div style="position: relative;">
-            <img class="card-img-top producto-imagen" src="${producto.imagenUrl}" alt="${producto.nombre}">
-            <div class="barra-horizontal"></div>
-            <div class="card-body producto-detalles">
-                <h3 class="card-title producto-titulo">${producto.nombre}</h3>
-                <p class="card-text producto-precio"><strong>$${producto.precio}</strong></p>
+            <img className="card-img-top producto-imagen" src="${producto.imagenUrl}" alt="${producto.nombre}">
+            <div className="barra-horizontal"></div>
+            <div className="card-body producto-detalles">
+                <h3 className="card-title producto-titulo">${producto.nombre}</h3>
+                <p className="card-text producto-precio"><strong>$${producto.precio}</strong></p>
                 </div>
-                <div style="padding-bottom: 15px;" class="mb-5 d-flex justify-content-around">
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
+                <div style="padding-bottom: 15px;" className="mb-5 d-flex justify-content-around">
+                <button className="producto-agregar" id="${producto.id}">Agregar</button>
                 </div>      
             </div>
 
@@ -57,8 +57,8 @@ function cargarProductos(productosElegidos) {
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
 
-        botonesCategorias.forEach(boton => boton.classList.remove("active"));
-        e.currentTarget.classList.add("active");
+        botonesCategorias.forEach(boton => boton.classNameList.remove("active"));
+        e.currentTarget.classNameList.add("active");
 
         if (e.currentTarget.id != "todos") {
             const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
