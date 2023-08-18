@@ -1,0 +1,31 @@
+/*
+Burdeo medio: #6F275D;
+Burdeo oscuro: #48114D;
+Fondo rosa claro: #FDDBDB;
+$success: #C79BCB;
+$warning: #E6FCF6;
+$light: #F3F3F3;
+$dark: #000000;
+$white: #FFFFFF;
+$bottom: #FDDBDB;*/
+:root,
+[dara-bs-theme=light] {
+    --bs-danger: #48114D;
+}
+
+.proxEvent {
+    display: inline-flex;
+    height: 80px;
+    padding: 26px 273px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--p-1-purple-strong, #48114D);
+    
+}
+
+
+.link-insta {
+    color: white;
+}
+

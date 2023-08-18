@@ -14,36 +14,36 @@ const botonComprar = document.querySelector("#carrito-acciones-comprar");
 function cargarProductosCarrito() {
     if (productosEnCarrito && productosEnCarrito.length > 0) {
 
-        contenedorCarritoVacio.classList.add("disabled");
-        contenedorCarritoProductos.classList.remove("disabled");
-        contenedorCarritoAcciones.classList.remove("disabled");
-        contenedorCarritoComprado.classList.add("disabled");
+        contenedorCarritoVacio.classNameList.add("disabled");
+        contenedorCarritoProductos.classNameList.remove("disabled");
+        contenedorCarritoAcciones.classNameList.remove("disabled");
+        contenedorCarritoComprado.classNameList.add("disabled");
     
         contenedorCarritoProductos.innerHTML = "";
     
         productosEnCarrito.forEach(producto => {
     
             const div = document.createElement("div");
-            div.classList.add("carrito-products");
+            div.classNameList.add("carrito-products");
             div.innerHTML = `
-                <img class="carrito-producto-imagen" src="${producto.imagenUrl}" alt="${producto.nombre}">
-                <div class="carrito-producto-titulo">
+                <img className="carrito-producto-imagen" src="${producto.imagenUrl}" alt="${producto.nombre}">
+                <div className="carrito-producto-titulo">
                     <small>Producto:</small>
                     <h5>${producto.nombre}</h5>
                 </div>
-                <div class="carrito-producto-cantidad">
+                <div className="carrito-producto-cantidad">
                     <small>Cantidad</small>
                     <p>${producto.cantidad}</p>
                 </div>
-                <div class="carrito-producto-precio">
+                <div className="carrito-producto-precio">
                     <small>Precio</small>
                     <p>$${producto.precio}</p>
                 </div>
-                <div class="carrito-producto-subtotal">
+                <div className="carrito-producto-subtotal">
                     <small>Subtotal</small>
                     <p>$${producto.precio * producto.cantidad}</p>
                 </div>
-                <button class="carrito-producto-eliminar" id="${producto.id}"><i class="bi bi-trash-fill"></i></button>
+                <button className="carrito-producto-eliminar" id="${producto.id}"><i className="bi bi-trash-fill"></i></button>
                 `;
     
             contenedorCarritoProductos.append(div);
@@ -53,10 +53,10 @@ function cargarProductosCarrito() {
     actualizarTotal();
 	
     } else {
-        contenedorCarritoVacio.classList.remove("disabled");
-        contenedorCarritoProductos.classList.add("disabled");
-        contenedorCarritoAcciones.classList.add("disabled");
-        contenedorCarritoComprado.classList.add("disabled");
+        contenedorCarritoVacio.classNameList.remove("disabled");
+        contenedorCarritoProductos.classNameList.add("disabled");
+        contenedorCarritoAcciones.classNameList.add("disabled");
+        contenedorCarritoComprado.classNameList.add("disabled");
     }
 
 }
@@ -134,10 +134,10 @@ function comprarCarrito() {
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
     
-    contenedorCarritoVacio.classList.add("disabled");
-    contenedorCarritoProductos.classList.add("disabled");
-    contenedorCarritoAcciones.classList.add("disabled");
-    contenedorCarritoComprado.classList.remove("disabled");
+    contenedorCarritoVacio.classNameList.add("disabled");
+    contenedorCarritoProductos.classNameList.add("disabled");
+    contenedorCarritoAcciones.classNameList.add("disabled");
+    contenedorCarritoComprado.classNameList.remove("disabled");
     window.location.href = "pasarela/pasarela1.html";
 
 }

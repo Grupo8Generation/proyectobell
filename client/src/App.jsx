@@ -1,11 +1,11 @@
 import React from 'react'
-import NavBar from './componentes/NavBar'
 import { Navigate, Route, Routes } from "react-router-dom"
 import Home from './Home'
 import Carrito from './pages/Carrito/Carrito'
-import { Vitrina } from './pages/Carrito/Vitrina'
+import { Vitrina } from './componentes/Vitrina'
 import { Pasarela1 } from './componentes/Pasarelas/Pasarela1/Pasarela1'
-import PreguntasFrecuentes from './componentes/PreguntasFrecuentes'
+import PreguntasFrecuentes from './componentes/Home/PreguntasFrecuentes'
+import AspectosLegales from './componentes/Home/AspectosLegales'
 
 
 export const App = () => {
@@ -20,6 +20,8 @@ export const App = () => {
       <Route path='/pasarela' element={<Pasarela1></Pasarela1>}></Route>
       <Route path='/tienda' element={<Vitrina></Vitrina>}></Route>
       <Route path='/preguntasFrecuentes' element={<PreguntasFrecuentes></PreguntasFrecuentes>} ></Route>
+      <Route path='/aspectosLegales' element={<AspectosLegales></AspectosLegales>}></Route>
+      
 
     </Routes>
 

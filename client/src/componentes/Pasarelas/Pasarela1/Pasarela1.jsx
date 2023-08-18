@@ -1,7 +1,9 @@
+
+
 import Footer from '../../Footer'
-import Breadcrumb from './Breadcrumb'
+
 import Formulario from './Formulario'
-import './Pasarela1s.css'
+import './Pasarela1s.scss'
 
 export const Pasarela1 = () => {
     return <div>
@@ -14,6 +16,7 @@ export const Pasarela1 = () => {
                 </div>
 
                 <div className="product-side col-6"></div>
+         
             </div>
 
         </div>

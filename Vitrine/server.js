@@ -8,6 +8,10 @@ app.use(cors());
 
 const MONGO_URI ="mongodb+srv://mseverinoortega:oUYoS2LP3OSTdpIT@cluster0.mdxvb6c.mongodb.net/Todos_productos";
 
+
+
+
+
 mongoose.connect(MONGO_URI, { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
@@ -16,10 +20,16 @@ mongoose.connect(MONGO_URI, {
 .catch(err => console.error('An error occurred', err));
 
 const productSchema = new mongoose.Schema({
+  id: String,
   nombre: String,
   precio: Number,
   imagenUrl: String,
-  categoria: Object
+  categoria: {
+    nombre: String, 
+    id: Number, 
+  },
+  descripcion: String,
+  materiales: String, 
 }, { collection: 'productos' });
 
 const Product = mongoose.model('Producto', productSchema);

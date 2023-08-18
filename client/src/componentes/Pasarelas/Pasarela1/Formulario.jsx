@@ -1,6 +1,6 @@
 
 import Breadcrumb from './Breadcrumb'
-import './Formularios.css'
+import './Formularios.scss'
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -37,7 +37,7 @@ function Formulario() {
                 <input name="apellido" className="form-control" type="text" placeholder="Apellido" aria-label="default input example"></input>
             </div>
             <div className="col-md-10 p-2">
-                <label for="exampleInputEmail1" className="form-label h5">Email</label>
+                <label htmlFor="exampleInputEmail1" className="form-label h5">Email</label>
                 <input name="email" type="email" className="form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
 
             </div>
@@ -53,7 +53,7 @@ function Formulario() {
             <div className="col-md-4 p-2">
                 <p className="h4">Comuna </p>
                 <select defaultValue="opcion2" name="comuna" className="form-select">
-                    <option selected>Open this select menu</option>
+                    <option value="0" >Open this select menu</option>
                     <option value="1">Estacion Central </option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
