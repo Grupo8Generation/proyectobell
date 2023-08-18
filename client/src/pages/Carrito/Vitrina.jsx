@@ -37,15 +37,9 @@ catch(error){
         </div>
         <div className="container-fluid vitrina-productos">
         
-        {productos.map((producto) => (
-             <Card 
-             key={producto.id}
-             imagen={producto.image}
-             titulo={producto.title}
-             descripcion={producto.description}
-             precio={producto.price}
-             ></Card>
-            ))} 
+       
+            
+           
             </div>
        <Footer/>
     </>

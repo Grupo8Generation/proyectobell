@@ -7,7 +7,10 @@ const PreguntasFrecuentes = () =>{
     return <div>
     <NavBar></NavBar>
     <div className="container-fluid preguntasFrecuentes">
+      <div className="fondo-preguntas">
         <div className=" container-fluid tituloPF h1 text-center">Preguntas frecuentes </div>
+
+        <div>
         <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item text-center">
     <h2 class="accordion-header ">
@@ -41,9 +44,11 @@ const PreguntasFrecuentes = () =>{
   </div>
 </div>
     </div>
-    <Footer></Footer>
     </div>
-
+    <Footer></Footer>
+    
+    </div>
+    </div>
 }
 
 export default PreguntasFrecuentes; 
