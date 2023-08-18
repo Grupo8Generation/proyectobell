@@ -5,7 +5,7 @@ import './Footers.css';
 const Footer = () => {
     return (
       
-            <div className="container-fluid">
+            <div className="container-fluid footerCont">
                 <div className="row justify-content-between align-items-center">
                     <div className="col-lg-2 col-md-12 col-sm-12 bottom-bar-section">
                         {/* Contenido de la primera sección */}

@@ -5,9 +5,19 @@ import './CarritoContenido.css'
 function CarritoContenido(){
     return ( 
 <div className="container carrito-contenido">
-  
-     <NavLink className="nav-link NosLink" to='/carrito' >Ver Carrito</NavLink>
+   
+<div>
+     
+       <NavLink className="nav-link NosLink" to='/carrito' >Ver Carrito</NavLink>
+    </div>
+     
+    
+
+
 </div>
+
+
+
 )}
 
 

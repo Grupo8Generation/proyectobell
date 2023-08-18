@@ -26,7 +26,7 @@ function CardContainer() {
             
      <img className="card-img-top" src={producto.imagenUrl} alt={producto.nombre} />
           <h2 className=''>{producto.nombre}</h2>
-          <p>{producto.descripcion}</p>
+          <p>{producto.descripción}</p>
           <h3 className=''>{producto.precio}</h3>
           <a id="compraYalg" className="btn" href="destino.html" role="button">Comprar</a>
         </div>
