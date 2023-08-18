@@ -1,6 +1,6 @@
 
 import Breadcrumb from './Breadcrumb'
-import './Formularios.css'
+import './Formularios.scss'
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 

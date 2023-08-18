@@ -8,6 +8,10 @@ app.use(cors());
 
 const MONGO_URI ="mongodb+srv://mseverinoortega:oUYoS2LP3OSTdpIT@cluster0.mdxvb6c.mongodb.net/Todos_productos";
 
+
+
+
+
 mongoose.connect(MONGO_URI, { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
