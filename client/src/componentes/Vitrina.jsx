@@ -1,53 +1,59 @@
-import { useEffect, useState } from "react"
-import { Card } from "@mui/material"
+import { useContext } from "react"
 import NavBar from "./NavBar"
 import NavBar2 from "./Navbar2"
 import Footer from "./Footer"
+import Card1 from "../pages/Carrito/Card"
+import "./vitrinas.css"
+import { ProductosContext } from "../context/ProductosContext"
+import { CarritoContext } from "../context/CarritoContext"
+
+
 
 
 
 export const Vitrina = () => {
 
-    const [productos, setProductos] = useState([])
+    const { productos } = useContext(ProductosContext)
 
-    const fetchProductos = async() => {
-        try{
-    const response = await fetch('/products')
-        const data = await response.json()
-        
-        setProductos(data)
-        console.log(data)  
+    const { listaCompras, agregarCompra, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext)
+
+    const handleAgregar = (compra) => {
+        agregarCompra(compra)
     }
-catch(error){
-    console.log('Error fetching products',error);
-}}
+    const handleQuitar = (id) => {
+        eliminarCompra(id)
+    }
+    const hanldeAumentar = (id) => {
 
-    useEffect(() => {
-        fetchProductos()
+    }
+    const handleDisminuir = (id) => {
 
-    }, [])
+    }
+
+
+
+
 
     return <>
-        <div>
-            <NavBar></NavBar>
-            <div className="container-fluid text-center tienda h1">
-                Tienda
-            </div>
-            <NavBar2></NavBar2>
+
+        <NavBar></NavBar>
+        <div className="container-fluid text-center tienda h1">
+            Tienda
         </div>
-        <div className="container-fluid vitrina-productos">
-        
-        {productos.map((producto) => (
-             <Card 
-             key={producto.id}
-             imagen={producto.image}
-             titulo={producto.title}
-             descripcion={producto.description}
-             precio={producto.price}
-             ></Card>
-            ))} 
-            </div>
-       <Footer/>
+        <NavBar2></NavBar2>
+        <div className="contenedor-vitrina">
+            {productos.map(producto => (
+                <Card1 key={producto.id}
+                    imagenUrl={producto.imagenUrl}
+                    nombre={producto.nombre}
+                    precio={producto.precio}
+                    handleAgregar={() => handleAgregar(producto)}
+                    handleQuitar={() => handleQuitar(producto.id)}
+                ></Card1>
+            ))}
+        </div>
+
+        <Footer />
     </>
 }
 

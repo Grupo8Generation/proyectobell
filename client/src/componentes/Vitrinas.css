@@ -7,4 +7,12 @@
     background-color: #48114D;
     color: white;
     padding: 10px;
+  
+}
+.contenedor-vitrina{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); /* Crea columnas automáticas con un ancho mínimo de 300px */
+    gap: 40px;
+    padding: 10%;
 }
