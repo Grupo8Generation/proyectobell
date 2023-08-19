@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "../../componentes/CardFijas/Card";
+import Cardfija from "../../componentes/CardFijas/Cardfija"
 import CardFija1 from "../../componentes/CardFijas/CardFija1"
-import CardFija2 from "../../componentes/CardFijas/CardFija2";
-import CardFija3 from "../../componentes/CardFijas/CardFija3";
-import CardFija4 from "../../componentes/CardFijas/CardFija4";
-import CardFija5 from "../../componentes/CardFijas/CardFija5";
-import CardFija6 from "../../componentes/CardFijas/CardFija6";
-import CardFija7 from "../../componentes/CardFijas/CardFija7";
+import CardFija2 from "../../componentes/CardFijas/CardFija2"
+import CardFija3 from "../../componentes/CardFijas/CardFija3"
+import CardFija4 from "../../componentes/CardFijas/CardFija4"
+import CardFija5 from "../../componentes/CardFijas/CardFija5"
+import CardFija6 from "../../componentes/CardFijas/CardFija6"
+import CardFija7 from "../../componentes/CardFijas/CardFija7"
 import CardFija8 from "../../componentes/CardFijas/CardFija8"
 
 // Importa tu componente de tarjeta
@@ -18,7 +18,7 @@ const CarruselCarrito = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="d-flex justify-content-between m-5">
-              <Card/>
+            <Cardfija></Cardfija>
               <CardFija1/>
               <CardFija2 />
             </div>
