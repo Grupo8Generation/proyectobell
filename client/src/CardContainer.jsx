@@ -25,10 +25,10 @@ function CardContainer() {
         <div key={producto.id} className="card">
             
      <img className="card-img-top" src={producto.imagenUrl} alt={producto.nombre} />
-          <h2 className=''>{producto.nombre}</h2>
-          <p>{producto.descripción}</p>
-          <h3 className=''>{producto.precio}</h3>
-          <a id="compraYalg" className="btn" href="destino.html" role="button">Comprar</a>
+     <p className='align-self-start '>#Amigurumi</p>
+          <h2 className='align-self-start'>{producto.nombre}</h2>
+          <h3 className='align-self-start'>{producto.precio}</h3>
+          <a id="compraYalg" className="btn" href="destino.html" role="button">Agregar al carrito</a>
         </div>
         
       ))}

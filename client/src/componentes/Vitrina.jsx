@@ -3,6 +3,7 @@ import { Card } from "@mui/material"
 import NavBar from "./NavBar"
 import NavBar2 from "./Navbar2"
 import Footer from "./Footer"
+import CardContainer from "../CardContainer"
 
 
 
@@ -37,15 +38,8 @@ catch(error){
         </div>
         <div className="container-fluid vitrina-productos">
         
-        {productos.map((producto) => (
-             <Card 
-             key={producto.id}
-             imagen={producto.image}
-             titulo={producto.title}
-             descripcion={producto.description}
-             precio={producto.price}
-             ></Card>
-            ))} 
+        
+        <CardContainer></CardContainer>
             </div>
        <Footer/>
     </>
