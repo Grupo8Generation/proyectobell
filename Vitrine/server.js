@@ -20,7 +20,7 @@ mongoose.connect(MONGO_URI, {
 .catch(err => console.error('An error occurred', err));
 
 const productSchema = new mongoose.Schema({
-  id: String,
+  id: Number,
   nombre: String,
   precio: Number,
   imagenUrl: String,
