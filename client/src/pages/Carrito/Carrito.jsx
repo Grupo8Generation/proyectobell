@@ -17,7 +17,7 @@ function Carrito() {
       <NavBar />
     </div>
     <div>
-      <table class="table">
+      <table className="table">
         <thead>
           <tr>
 
@@ -48,7 +48,7 @@ function Carrito() {
 
         </tbody>
       </table>
-      <div class="d-grid gap-2">
+      <div className="d-grid gap-2">
         <button className=" btn ">COMPRAR</button>
       </div>
     </div>
