@@ -10,14 +10,22 @@ import { CarritoContext } from "../../context/CarritoContext";
 
 
 function Carrito() {
-  const { listaCompras, agregarCompra, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext)
+  const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext)
+
+  const calcularTotal = () => {
+    return listaCompras.reduce((total,item) => total + item.precio * item.cantidad, 0)
+  }
+  const handleImpresion = () =>{
+
+    window.print()
+  }
 
   return <>
     <div>
       <NavBar />
     </div>
     <div>
-      <table class="table">
+      <table className="table">
         <thead>
           <tr>
 
@@ -45,11 +53,19 @@ function Carrito() {
 
             ))
           }
+          <th><b>TOTAL: </b></th>
+          <td></td>
+          <td></td>          
+          <td>${calcularTotal()}</td>
+
 
         </tbody>
       </table>
-      <div class="d-grid gap-2">
-        <button className=" btn ">COMPRAR</button>
+      <div className="d-grid gap-2">
+        <button 
+        className=" btn "
+        onClick={handleImpresion}
+        disabled={listaCompras.length<1}>COMPRAR</button>
       </div>
     </div>
 

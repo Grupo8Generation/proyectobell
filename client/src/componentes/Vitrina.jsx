@@ -15,7 +15,7 @@ export const Vitrina = () => {
 
     const { productos } = useContext(ProductosContext)
 
-    const { listaCompras, agregarCompra, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext)
+    const {agregarCompra, eliminarCompra } = useContext(CarritoContext)
 
     const handleAgregar = (compra) => {
         agregarCompra(compra)
@@ -23,13 +23,6 @@ export const Vitrina = () => {
     const handleQuitar = (id) => {
         eliminarCompra(id)
     }
-    const hanldeAumentar = (id) => {
-
-    }
-    const handleDisminuir = (id) => {
-
-    }
-
 
 
 

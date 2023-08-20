@@ -1,31 +1,29 @@
-import { useState } from "react";
+import { useState, useContext } from "react"; // No olvides importar useContext
 import CarritoContenido from "./CarritoContenido";
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './CarritoContenido.css'
 import './CarritoButton.css'
-
-
-
+import { CarritoContext } from "../../context/CarritoContext";
 
 function CarritoButton() {
-    const [mostrarCarrito, setMostratCarrito] = useState(false);
+    const { listaCompras } = useContext(CarritoContext); // Mueve esta línea aquí, dentro del componente
+    const [mostrarCarrito, setMostrarCarrito] = useState(false); // corregido typo en setMostrarCarrito
 
-    const toggleCarrito = () =>{
-        setMostratCarrito(!mostrarCarrito);
-    
+    const toggleCarrito = () => {
+        setMostrarCarrito(!mostrarCarrito);
     };
 
     return (
         <div className="carrito-button">
             <button onClick={toggleCarrito}>
-            <Badge badgeContent={0} color="primary">
-            <ShoppingCartIcon style={{ color: 'white' }}/>
-            </Badge>
+                <Badge badgeContent={listaCompras.length} color="primary">
+                    <ShoppingCartIcon style={{ color: 'white' }} />
+                </Badge>
             </button>
-            {mostrarCarrito && <CarritoContenido/>}
+            {mostrarCarrito && <CarritoContenido />}
         </div>
     )
 }
 
-export default CarritoButton; 
+export default CarritoButton;
