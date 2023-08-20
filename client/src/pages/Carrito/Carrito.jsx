@@ -24,7 +24,7 @@ function Carrito() {
     <div>
       <NavBar />
     </div>
-    <div>
+    <div class="contenedor-carrito">
       <table className="table">
         <thead>
           <tr>
