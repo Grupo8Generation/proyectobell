@@ -2,11 +2,6 @@ import { useReducer } from "react";
 import { CarritoContext } from "./CarritoContext";
 
 
-const initialState= [];
-
-import { useReducer } from 'react'
-import { CarritoContext } from './CarritoContext'
-
 
 
 const initialState = []
