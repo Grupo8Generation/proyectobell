@@ -2,7 +2,7 @@ import "./CardStyle.css"
 import React, { useState } from "react";
 
 
-const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, hanldeAumentar, handleDisminuir }) => {
+const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, handleAumentar, handleDisminuir }) => {
 
     const [added, setAdded] = useState(false)
 
@@ -11,7 +11,7 @@ const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, hanldeA
         setAdded(true)
     }
     const clickQuitar = () => {
-        handleQuitar
+        handleQuitar()
         setAdded(false)
 
     }
