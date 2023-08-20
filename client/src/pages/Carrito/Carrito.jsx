@@ -11,6 +11,7 @@ import { CarritoContext } from "../../context/CarritoContext";
 
 function Carrito() {
   const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext)
+Mauricio-BackEnd
 
   const calcularTotal = () => {
     return listaCompras.reduce((total,item) => total + item.precio * item.cantidad, 0)
@@ -18,8 +19,16 @@ function Carrito() {
   const handleImpresion = () =>{
 
     window.print()
-  }
 
+  const calcularTotal = () => {
+    return listaCompras.reduce((total, item) => total + item.precio * item.cantidad, 0 ).toFixed(2)
+}
+
+const handleImpresion = () => {
+ main
+
+    print()
+}
   return <>
     <div>
       <NavBar />
@@ -53,19 +62,33 @@ function Carrito() {
 
             ))
           }
+ Mauricio-BackEnd
           <th><b>TOTAL: </b></th>
           <td></td>
           <td></td>          
           <td>${calcularTotal()}</td>
 
+           <th><b>TOTAL: </b></th>
+                    <td></td>
+                    <td>{calcularTotal()}</td>
+ main
+
 
         </tbody>
       </table>
+ Mauricio-BackEnd
       <div className="d-grid gap-2">
         <button 
         className=" btn "
         onClick={handleImpresion}
         disabled={listaCompras.length<1}>COMPRAR</button>
+
+      <div className="d-grid gap-2">
+        <button className=" btn "
+         onClick={handleImpresion}
+         disabled={listaCompras<1}
+         >COMPRAR</button>
+ main
       </div>
     </div>
 

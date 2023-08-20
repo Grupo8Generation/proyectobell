@@ -2,7 +2,7 @@ import "./CardStyle.css"
 import React, { useState } from "react";
 
 
-const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, hanldeAumentar, handleDisminuir }) => {
+const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, handleAumentar, handleDisminuir }) => {
 
     const [added, setAdded] = useState(false)
 
@@ -11,7 +11,7 @@ const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, hanldeA
         setAdded(true)
     }
     const clickQuitar = () => {
-        handleQuitar
+        handleQuitar()
         setAdded(false)
 
     }
@@ -21,7 +21,7 @@ const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, hanldeA
         <div className="card">
             <img className="card-img-top" src={imagenUrl} alt={nombre} />
             <div className="card-contenido">
-                <p className=' hashtag'>#Amigurumi</p>
+                <p className='card-hashtag'>#Amigurumi</p>
                 <h2 className='card-nombre'>{nombre}</h2>
                 <h3 className='card-precio'>{precio}</h3>
             </div>
