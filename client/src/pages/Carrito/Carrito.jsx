@@ -4,7 +4,7 @@ import NavBar from "../../componentes/NavBar";
 import Navbar2 from "../../componentes/Navbar2";
 import CarritoContenido from "./CarritoContenido";
 import CarruselCarrito from "./CarruselCarrito"
-import CardContainer from "../../CardContainer";
+
 
 
 
@@ -17,7 +17,7 @@ function Carrito() {
   </div>
 
   <CarritoContenido/>
-  <CardContainer></CardContainer>
+  
 
 <CarruselCarrito/>
   <Footer/>
