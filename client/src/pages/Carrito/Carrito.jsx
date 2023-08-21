@@ -2,9 +2,6 @@
 import Footer from "../../componentes/Footer";
 import NavBar from "../../componentes/NavBar";
 import CarruselCarrito from "./CarruselCarrito"
-import { useContext } from "react";
-import { CarritoContext } from "../../context/CarritoContext";
-
 
 
 
