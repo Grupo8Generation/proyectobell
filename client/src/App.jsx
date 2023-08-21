@@ -6,11 +6,14 @@ import Vitrina from "./componentes/Vitrina";
 import { Pasarela1 } from './componentes/Pasarelas/Pasarela1/Pasarela1'
 import PreguntasFrecuentes from './componentes/Home/PreguntasFrecuentes'
 import AspectosLegales from './componentes/Home/AspectosLegales'
+import ProductosProvider from './context/ProductosProvider'
+import CarritoProvider from './context/CarritoProvider'
 
 
 export const App = () => {
   return (<>
-
+<ProductosProvider>
+  <CarritoProvider>
     <Routes>
 
       <Route path='/' element={<Home></Home>}></Route>
@@ -24,7 +27,8 @@ export const App = () => {
       
 
     </Routes>
-
+    </CarritoProvider>
+</ProductosProvider>
   </>
   )
 }

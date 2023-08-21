@@ -1,0 +1,118 @@
+.card-img-top {
+    display: inline-flex;
+    height: 220px;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 5.393px solid var(--p-1-purple-strong, #48114D);
+    background: lightgray 50% / cover no-repeat;
+
+}
+
+.card {
+
+    border-radius: 9.978px;
+    background: var(--n-white, #FFF);
+    box-shadow: 0px 3.6282050609588623px 3.6282050609588623px 0px rgba(0, 0, 0, 0.32);
+    max-height: 390px;
+    flex-shrink: 0;
+    display: flex;
+    width: 250px;
+    height: 390px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+
+
+.boton-agregar {
+
+    display: flex;
+    width: 210px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5.393px;
+    background: #6F275D;
+    color: white;
+    border: #6F275D solid;
+ 
+    margin-left: 18px;
+
+
+
+}
+
+
+
+.boton-quitar {
+
+    border-radius: 5.393px;
+    background: white;
+    color: #6F275D;
+    border: #6F275D solid;
+    display: flex;
+    width: 210px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+margin-left: 18px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.card-precio {
+    color: var(--p-1-purple-strong, #48114D);
+    text-align: center;
+    font-family: Cabin;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 0px;
+}
+
+.card-nombre {
+    color: var(--p-1-purple-strong, #48114D);
+    text-align: center;
+    font-family: Cabin;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-hashtag{
+    color: var(--p-1-purple-strong, #48114D);
+text-align: center;
+font-family: Cabin;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+}
+
+.card-contenido{
+    align-items: start;
+    margin-left: 18px;
+    justify-content: start; 
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-height: 170px;
+   
+
+}
