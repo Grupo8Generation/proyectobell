@@ -1,0 +1,11 @@
+.producto {
+    border: 8px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+  }
+.btn-custom {
+width: 10px;
+height: 10px;
+}
+  

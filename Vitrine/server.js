@@ -10,8 +10,6 @@ const MONGO_URI ="mongodb+srv://mseverinoortega:oUYoS2LP3OSTdpIT@cluster0.mdxvb6
 
 
 
-
-
 mongoose.connect(MONGO_URI, { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
@@ -24,10 +22,7 @@ const productSchema = new mongoose.Schema({
   nombre: String,
   precio: Number,
   imagenUrl: String,
-  categoria: {
-    nombre: String, 
-    id: Number, 
-  },
+  categoria: String,
   descripcion: String,
   materiales: String, 
 }, { collection: 'productos' });
