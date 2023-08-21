@@ -33,6 +33,8 @@ export const Vitrina = () => {
         const transformedData = data.map(item => ({
           id: item.id, // Asegurarte de usar la propiedad correcta para el id
           nombre: item.nombre,
+          precio: item.precio,
+          imagenUrl: item.imagenUrl,
           categoria: item.categoria
         }));
   
