@@ -8,6 +8,7 @@ import "./vitrinas.css"
 import { ProductosContext } from "../context/ProductosContext"
 import { CarritoContext } from "../context/CarritoContext"
 
+ 
 
 
 
@@ -56,6 +57,7 @@ export const Vitrina = () => {
         <div className="container-fluid text-center tienda h1">
             Tienda
         </div>
+
         <NavBar2 setSelectedCategory={setSelectedCategory} />
         <div className="contenedor-vitrina">
             {filteredData.map(Producto => (
