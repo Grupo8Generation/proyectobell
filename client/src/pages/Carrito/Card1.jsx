@@ -23,7 +23,7 @@ const Card1 = ({ imagenUrl, nombre, precio, handleAgregar, handleQuitar, handleA
             <div className="card-contenido">
                 <p className='card-hashtag'>#Amigurumi</p>
                 <h2 className='card-nombre'>{nombre}</h2>
-                <h3 className='card-precio'>{precio}</h3>
+                <h3 className='card-precio'>${precio}</h3>
             </div>
             {
                 added
