@@ -1,0 +1,33 @@
+.vitrina-productos{
+  
+    min-height: 890px;
+}
+
+.tienda{
+    background-color: #48114D;
+    color: white;
+    padding: 10px;
+}
+
+.carrito-contenido {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background:white;
+    border: 1px solid #48114D;
+    width: 200px;
+    display: none;
+  }
+  
+  .carrito-button:hover .carrito-contenido {
+    display: block;
+  }
+
+
+.contenedor-vitrina{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); /* Crea columnas automáticas con un ancho mínimo de 300px */
+    gap: 40px;
+    padding: 10%;
+}

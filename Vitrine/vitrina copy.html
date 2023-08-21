@@ -20,12 +20,12 @@
 <body> 
     <!-- Navbar principal -->
     <header>
-        <header class="header"> 
-            <div class="logo">
+        <header className="header"> 
+            <div className="logo">
             <img src="img/bell_logo.img.png" alt="logo de la marca bell">
             </div>
             <nav>
-                <ul class="nav-links">
+                <ul className="nav-links">
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Pedido Personalizado</a></li>
                     <li><a href="#">Envíos</a></li>
@@ -34,81 +34,81 @@
                     <li><a href="#">Tienda</a></li>
                 </ul>
             </nav>
-            <a class="boton-menu boton-carrito" href="./carrito.html">
+            <a className="boton-menu boton-carrito" href="./carrito.html">
                 <img 
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAO9JREFUSEvNlN0VATEQhb/thE7ohFeKQBG8ohI6oRPOdTJ71m42GbvimNck95s7P6koHFVhfX4KeAQ3d+AMbL/hrunAAKY7B65jIbESLYBjEBdkVMQAE+AWVEe76GuyHMjJ0FAfp3rcB2i6GALJAiR6AWbAEjg5KeZ8Z1OY2gNrdp2NA2KTqPLoXXLRPm22JSS3cv2K3CZr2TahRPWjHifRkuYA5sJTJivPm2YO0Gx23biIg16nHoAmSfY90VlMD0DClmEKon+r87V4AZ7so3e8gD2wAg7AuqWUOsuOqWk1v/J2UqkzN6C4g+I9+F/AE7jxMhlT41/bAAAAAElFTkSuQmCC"
-                 width="40px" height="40px"><span id="numerito" class="numerito">0</span></a>
+                 width="40px" height="40px"><span id="numerito" className="numerito">0</span></a>
         </header>    
        <!-- Navbar segundo (accesorios, chalecos, juguetes,etc.)-->
-        <div class="container-fluid d-flex justify-content-center" style="padding: 15px;"> Tienda</p></div>
-        <ul class="nav">
-            <li class="nav-item">
-                <button id="todos" class="nav-link boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+        <div className="container-fluid d-flex justify-content-center" style="padding: 15px;"> Tienda</p></div>
+        <ul className="nav">
+            <li className="nav-item">
+                <button id="todos" className="nav-link boton-categoria"><i className="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
             </li>
-            <li class="nav-item">
-                <button id="personalizado" class="nav-link boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Accesorios</button>
+            <li className="nav-item">
+                <button id="personalizado" className="nav-link boton-categoria"><i className="bi bi-hand-index-thumb-fill"></i> Accesorios</button>
             </li>
-            <li class="nav-item">
-                <button id="chalecos" class="nav-link boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Adultos</button>
-                <p class="text"style='margin:-20px; margin-left: 25px'><small>Chalecos</small></p>
+            <li className="nav-item">
+                <button id="chalecos" className="nav-link boton-categoria"><i className="bi bi-hand-index-thumb-fill"></i> Adultos</button>
+                <p className="text"style='margin:-20px; margin-left: 25px'><small>Chalecos</small></p>
             </li>
-            <li class="nav-item">
-                <button id="chaleco bebe" class="nav-link boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Niños & Niñas</button>
-              <p class="text"style='margin:-20px; margin-left: 40px'><small>Chalecos</small></p>
+            <li className="nav-item">
+                <button id="chaleco bebe" className="nav-link boton-categoria"><i className="bi bi-hand-index-thumb-fill"></i> Niños & Niñas</button>
+              <p className="text"style='margin:-20px; margin-left: 40px'><small>Chalecos</small></p>
             </li>
-            <li class="nav-item">
-                <button id="amigurumis" class="nav-link boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Juguetes</button>
-                <p class="text"style='margin:-18px; margin-left: 30px'><small>de Bebé</small></p>
+            <li className="nav-item">
+                <button id="amigurumis" className="nav-link boton-categoria"><i className="bi bi-hand-index-thumb-fill"></i> Juguetes</button>
+                <p className="text"style='margin:-18px; margin-left: 30px'><small>de Bebé</small></p>
             </li>
-            <li class="nav-item">
-                <button id="zapatitos" class="nav-link boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Zapatos</button>
-                <p class="text"style='margin:-20px; margin-left: 20px'><small>para Bebés</small></p>
+            <li className="nav-item">
+                <button id="zapatitos" className="nav-link boton-categoria"><i className="bi bi-hand-index-thumb-fill"></i> Zapatos</button>
+                <p className="text"style='margin:-20px; margin-left: 20px'><small>para Bebés</small></p>
             </li>
-            <li class="nav-item">
-                <button id="otros" class="nav-link boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Otros</button>
+            <li className="nav-item">
+                <button id="otros" className="nav-link boton-categoria"><i className="bi bi-hand-index-thumb-fill"></i> Otros</button>
             </li>
           </ul>
     </header>
     <!-- Tercer navbar morado todos los artículos -->
     <main>
-        <div class="container py-5">
-        <h1 class="text-center titulo-principal" id="titulo-principal">Todos los productos</h1>
-        <div id="contenedor-productos" class="row row-cols-1 row-cols-md-3 g-4 py-5 contenedor-productos">
+        <div className="container py-5">
+        <h1 className="text-center titulo-principal" id="titulo-principal">Todos los productos</h1>
+        <div id="contenedor-productos" className="row row-cols-1 row-cols-md-3 g-4 py-5 contenedor-productos">
             <!-- Esto se va a rellenar con JS -->
         </div>
     </main>
 
-  <div class="bottom-bar d-flex justify-content-between align-items-center">
-    <div class="bottom-bar-section">
+  <div className="bottom-bar d-flex justify-content-between align-items-center">
+    <div className="bottom-bar-section">
       <!-- Logo con enlace a la pagina -->
       <img src="img/bell_logo.img.png" alt="Logo" width="178" height="178">
     </div>
-    <div class="bottom-bar-section">
-      <ul class="list-unstyled mb-0">
-        <li><a href="#" class="bottom-bar-link"><b>Nosotros</b></a></li>
-        <li><a href="#" class="bottom-bar-link"><b>Pedidos</b></a></li>
-        <li><a href="#" class="bottom-bar-link">Envios</a></li>
+    <div className="bottom-bar-section">
+      <ul className="list-unstyled mb-0">
+        <li><a href="#" className="bottom-bar-link"><b>Nosotros</b></a></li>
+        <li><a href="#" className="bottom-bar-link"><b>Pedidos</b></a></li>
+        <li><a href="#" className="bottom-bar-link">Envios</a></li>
       </ul>
     </div>
-    <div class="bottom-bar-section">
-      <ul class="list-unstyled mb-0">
-        <li><a href="#" class="bottom-bar-link"><b>Preguntas frecuentes</b></a></li>
-        <li><a href="#" class="bottom-bar-link"><b>Legal</b></a></li>
+    <div className="bottom-bar-section">
+      <ul className="list-unstyled mb-0">
+        <li><a href="#" className="bottom-bar-link"><b>Preguntas frecuentes</b></a></li>
+        <li><a href="#" className="bottom-bar-link"><b>Legal</b></a></li>
       </ul>
     </div>
-    <div class="bottom-bar-section">
-      <ul class="list-unstyled mb-0">
-        <li><a href="#" class="bottom-bar-link"><b>Instagram</b></a></li>
-        <li><a href="#" class="bottom-bar-link"><b>Tienda</b></a></li>
+    <div className="bottom-bar-section">
+      <ul className="list-unstyled mb-0">
+        <li><a href="#" className="bottom-bar-link"><b>Instagram</b></a></li>
+        <li><a href="#" className="bottom-bar-link"><b>Tienda</b></a></li>
       </ul>
     </div>
-    <div class="bottom-bar-section">
-      <ul class="list-unstyled mb-0">
+    <div className="bottom-bar-section">
+      <ul className="list-unstyled mb-0">
         <li><b>Consultas:</b></li>
-        <li><a href="#" class="bottom-bar-link">bell.tejidosdeamor@gmail.com</a></li>
+        <li><a href="#" className="bottom-bar-link">bell.tejidosdeamor@gmail.com</a></li>
         <br>
         <li><b>Whatsapp:</b></li>
-        <li><a href="#" class="bottom-bar-link">+56 9 3788 2427</a></li>
+        <li><a href="#" className="bottom-bar-link">+56 9 3788 2427</a></li>
       </ul>
     </div>
   </div>

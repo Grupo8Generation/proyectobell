@@ -6,12 +6,9 @@
   gap: 8px;
 }
 
-
-
 .bottom-bar {
-    background-color:white;
     height: 200px;
-    color:  #FDDBDB;
+    color:  #48114D;
   }
 
   .bottom-bar-logo {
@@ -19,16 +16,7 @@
   }
 
   .bottom-bar-link {
-    color: white;
+    color:  white;
     text-decoration: none;
   }
 
-
-  .list-unstyled{
-   width: 15px;
-  }
-
-  .contFoo{
-    background-color: #48114D;
-    color: white;
-  }
