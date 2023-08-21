@@ -11,13 +11,8 @@ import { CarritoContext } from "../context/CarritoContext"
 export const Vitrina = () => {
 
     const { productos } = useContext(ProductosContext)
-
-
-    const {agregarCompra, eliminarCompra } = useContext(CarritoContext)
-
     const { agregarCompra, eliminarCompra } = useContext(CarritoContext)
-
-
+    
     const handleAgregar = (compra) => {
         agregarCompra(compra)
     }
