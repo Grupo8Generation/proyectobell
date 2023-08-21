@@ -54,7 +54,7 @@ export const Vitrina = () => {
         <div className="container-fluid text-center tienda h1">
             Tienda
         </div>
-        <NavBar2></NavBar2>
+        <NavBar2 setSelectedCategory={setSelectedCategory} />
         <div className="contenedor-vitrina">
             {filteredData.map(Producto => (
                 <Card1 key={Producto.id}

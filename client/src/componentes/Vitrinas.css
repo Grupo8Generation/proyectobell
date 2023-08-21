@@ -8,16 +8,7 @@
     color: white;
     padding: 10px;
 }
-.vitrina-productos{
-  
-  min-height: 890px;
-}
 
-.tienda{
-  background-color: #48114D;
-  color: white;
-  padding: 10px;
-}
 .carrito-contenido {
     position: absolute;
     top: 100%;

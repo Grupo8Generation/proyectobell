@@ -6,7 +6,6 @@ import CarruselCarrito from "./CarruselCarrito"
 
 
 
-
 function Carrito() {
   const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext)
 
