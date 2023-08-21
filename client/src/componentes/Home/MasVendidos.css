@@ -17,3 +17,12 @@
     color:var(--bs-danger);
     padding-top: 30px;
 }
+
+
+.cardMAsVendidas{
+    display: flex;
+  flex-wrap: wrap; /* Puede ser importante para manejar el flujo de varias tarjetas */
+  gap: 70px;
+  justify-content: center;
+  padding-top: 70px;
+}
