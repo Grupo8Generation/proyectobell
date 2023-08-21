@@ -14,7 +14,7 @@ export const Vitrina = () => {
     const { agregarCompra, eliminarCompra } = useContext(CarritoContext)
     
     const handleAgregar = (compra) => {
-        agregarCompra(compra)
+        agregarCompra(compra)     
     }
     const handleQuitar = (id) => {
         eliminarCompra(id)
@@ -42,5 +42,4 @@ export const Vitrina = () => {
         <Footer />
     </>
 }
-
 
