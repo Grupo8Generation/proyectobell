@@ -12,7 +12,7 @@ const CardFija6 = () => {
         <h6 className="card-hashtag"> #Personalizado</h6>
         <h5 className="card-title">Chaleco 3d</h5>
         <h3 className="card-text"><strong>$20.000</strong></h3>
-        <a id="compraYalg" className="btn" href="destino.html" role="button">Comprar</a>
+        <a id="compraYalg" className="btn" href="destino.html" role="button">Ver más</a>
       </div>
     </div>
   </>
