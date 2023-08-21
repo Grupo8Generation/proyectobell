@@ -1,82 +1,67 @@
-
-import { useContext } from "react";
 import Footer from "../../componentes/Footer";
 import NavBar from "../../componentes/NavBar";
-import CarruselCarrito from "./CarruselCarrito"
+import CarruselCarrito from "./CarruselCarrito";
+import { useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
 
-
-
-
 function Carrito() {
-  const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext)
+  const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext);
 
   const calcularTotal = () => {
-    return listaCompras.reduce((total, item) => total + item.precio * item.cantidad, 0 ).toFixed(2)
-}
+    return listaCompras.reduce((total, item) => total + item.precio * item.cantidad, 0);
+  }
 
-const handleImpresion = () => {
+  const handleImpresion = () => {
+    window.print();
+  }
 
-    print()
-}
-  return <>
-    <div>
+  return (
+    <>
       <NavBar />
-    </div>
-    <div>
-      <table className="table">
-        <thead>
-          <tr>
-
-            <th scope="col">Nombre</th>
-            <th scope="col">Precio</th>
-            <th scope="col">Cantidad</th>
-            <th scope="col">Eliminar</th>
-          </tr>
-        </thead>
-        <tbody>
-          {
-            listaCompras.map(item => (
-              <tr key={item.id}>
-                <td>{item.nombre}</td>
-                <td>{item.precio}</td>
-                <td>
+      <h2 className="titulo-principal" style={{ paddingLeft: '25px', backgroundColor: '#F9EAEA', paddingRight: '100px' }}>
+        Carrito de compras
+      </h2>
+      <main style={{ padding: '50px' }}>
+        <div className="contenedor-carrito">
+          {listaCompras.length === 0 ? (
+            <p className="carrito-vacio">
+              Tu carrito está vacío. <i style={{ paddingLeft: '10px' }} className="bi bi-emoji-frown"></i>
+            </p>
+          ) : (
+            <div className="contenedor-productos" style={{ maxWidth: '800px' }}>
+{listaCompras.map(item => (
+    <div className="producto d-flex justify-content-between" key={item.id} style={{ border: '1px solid #ccc', padding: '10px', marginBottom: '10px', borderRadius: '10px' }}>
+        <div>
+            <p><strong>Nombre:</strong> {item.nombre}</p>
+            <p><strong>Precio:</strong> ${item.precio}</p>
+            <p><strong>Cantidad:</strong> {item.cantidad}</p>
+        </div>
+        <div className="d-flex flex-column align-items-end"> {/* Aquí creamos una columna a la derecha */}
+            <button type="button" className="btn" onClick={() => eliminarCompra(item.id)} style={{ backgroundColor: 'transparent', border: 'none', marginBottom: '10px' }}>
+                <i className="bi bi-trash-fill"></i>
+            </button>
+            <div>
                 <button className="btn btn-outline" onClick={() => disminuirCantidad(item.id)}>-</button>
-              <button className="btn ">{item.cantidad}</button>
-              <button className="btn btn-outline" onClick={() => aumentarCantidad(item.id)}>+</button>
-                </td>
-                <td><button
-                  type="button" className="btn btn-danger" 
-                  onClick={() => eliminarCompra(item.id)} >Eliminar</button></td>
-              </tr>
-
-            ))
-          }
- 
-          <th><b>TOTAL: </b></th>
-          <td></td>
-          <td></td>          
-          <td>${calcularTotal()}</td>
-
-
-        </tbody>
-      </table>
-
-      <div className="d-grid gap-2">
-        <button className=" btn "
-         onClick={handleImpresion}
-         disabled={listaCompras<1}
-         >COMPRAR</button>
-      </div>
+                <button className="btn ">{item.cantidad}</button>
+                <button className="btn btn-outline" onClick={() => aumentarCantidad(item.id)}>+</button>
+            </div>
+        </div>
     </div>
+))}
 
-
-
-    <CarruselCarrito />
-    <Footer />
-  </>
-
-}
-
+              <div style={{ marginTop: '20px' }}>
+                <strong>TOTAL:</strong> ${calcularTotal()}
+              </div>
+            </div>
+          )}
+          <div className="d-grid gap-2">
+            <button className="btn" onClick={handleImpresion} disabled={listaCompras.length < 1}>COMPRAR</button>
+          </div>
+        </div>
+      </main>
+      <CarruselCarrito />
+      <Footer />
+    </>
+  );
+}  
 export default Carrito;
-
