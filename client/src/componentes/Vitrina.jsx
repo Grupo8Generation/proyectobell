@@ -4,9 +4,11 @@ import NavBar from "./NavBar"
 import NavBar2 from "./Navbar2"
 import Footer from "./Footer"
 import Card1 from "../pages/Carrito/Card1"
-import "./vitrinas.css"
+import "./Vitrinas.css"
 import { ProductosContext } from "../context/ProductosContext"
 import { CarritoContext } from "../context/CarritoContext"
+import Frame17 from "/Frame17.png";
+
 
  
 
@@ -60,6 +62,16 @@ export const Vitrina = () => {
 
         <NavBar2 setSelectedCategory={setSelectedCategory} />
         <div className="contenedor-vitrina">
+          <div className="card">
+      <div>
+        <img src={Frame17} className="card-img-top" alt="personalizado"></img>
+      </div>
+      <div className="card-body">
+        <h6 className="card-hashtag"> #Personalizado</h6>
+        <h5 className="card-title">Pide tu producto personalizado</h5>
+        <a id="compraYalg" className="btn" href="destino.html" role="button">Pide aquí</a>
+      </div>
+          </div>
             {filteredData.map(Producto => (
                 <Card1 key={Producto.id}
                     imagenUrl={Producto.imagenUrl}
