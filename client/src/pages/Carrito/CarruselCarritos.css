@@ -1,13 +1,33 @@
 /* Estilos CSS */
 .carousel-inner {
-    display: flex;
-    flex-wrap: nowrap;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .card {
-    flex: 0 0 calc(33.33% - 1rem);
-    margin-right: 2rem;
-    /* Agrega otros estilos para tus tarjetas */
-  }
-  
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 1rem);
+  margin-right: 2rem;
+  /* Agrega otros estilos para tus tarjetas */
+}
+
+.SugCarr {
+  color: var(--p-1-purple-strong, #48114D);
+  text-align: center;
+  font-family: Cabin;
+  font-size: 45.78px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.BasCarr {
+  color: var(--p-1-purple-strong, #48114D);
+  text-align: center;
+  font-family: Cabin;
+  font-size: 29.3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}

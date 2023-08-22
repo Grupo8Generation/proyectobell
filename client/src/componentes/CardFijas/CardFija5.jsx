@@ -1,5 +1,7 @@
 import './Cards.css'
 import botaImage from "./BeLLImg600/Frame27.png"
+import { Link } from 'react-router-dom';
+
 const CardFija5 = () => {
 
 
@@ -12,7 +14,7 @@ const CardFija5 = () => {
         <h6 className="card-hashtag"> #Bordado</h6>
         <h5 className="card-title">Botas floral</h5>
         <h3 className="card-text"><strong>$4.000 c/u</strong></h3>
-        <a id="compraYalg" className="btn" href="destino.html" role="button">Ver más</a>
+        <Link to="/tienda" id="compraYalg" className="btn" href="destino.html" role="button">Ver más</Link>
       </div>
     </div>
   </>

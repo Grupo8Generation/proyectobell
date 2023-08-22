@@ -5,6 +5,7 @@ import "./Hashtags.css"
 
 const Hashtag = () => {
     return <>
+    <div className="container-fluid">
         <div id="Hashtagss" className="container-fluid hashtags">
             <div className=" row  ">
 
@@ -59,6 +60,7 @@ const Hashtag = () => {
 
 
             </div>
+        </div>
         </div>
     </>
 

@@ -3,6 +3,8 @@ import NavBar from "../../componentes/NavBar";
 import CarruselCarrito from "./CarruselCarrito";
 import { useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
+import "./Carrito.css"
+import Navbar2 from "../../componentes/Navbar2";
 
 function Carrito() {
   const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext);
@@ -17,11 +19,14 @@ function Carrito() {
 
   return (
     <>
+    <div className="container-fluid fondoCarrito">
       <NavBar />
-      <h2 className="titulo-principal" style={{ paddingLeft: '25px', backgroundColor: '#F9EAEA', paddingRight: '100px' }}>
+    <Navbar2></Navbar2> 
+   
+      <main style={{ padding: '50px' }}>
+           <h2 className="titulo-principal">
         Carrito de compras
       </h2>
-      <main style={{ padding: '50px' }}>
         <div className="contenedor-carrito">
           {listaCompras.length === 0 ? (
             <p className="carrito-vacio">
@@ -55,18 +60,19 @@ function Carrito() {
                   </div>
                 </div>
               ))}
-              <div style={{ marginTop: '20px' }}>
+              <div className="totalCarrito">
                 <strong>TOTAL:</strong> ${calcularTotal()}
               </div>
             </div>
           )}
-          <div className="d-grid gap-2">
-            <button className="btn" onClick={handleImpresion} disabled={listaCompras.length < 1}>COMPRAR</button>
-          </div>
+        
+            <button className="btn btnComprar" onClick={handleImpresion} disabled={listaCompras.length < 1}>COMPRAR</button>
+         
         </div>
       </main>
       <CarruselCarrito />
       <Footer />
+      </div>
     </>
   );
 }  

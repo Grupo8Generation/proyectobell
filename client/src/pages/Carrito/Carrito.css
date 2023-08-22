@@ -8,4 +8,56 @@
 width: 10px;
 height: 10px;
 }
-  
+
+
+.titulo-principal{
+color: var(--p-1-purple-strong, #48114D);
+text-align: start;
+font-family: Cabin;
+font-size: 45.78px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+padding-left: 15%;
+  }
+
+main{
+  align-items: center;
+}
+
+.contenedor-carrito{
+
+  padding-left: 15%;
+}
+
+.fondoCarrito{
+
+  background-image: url(client/src/img/fondo_cards.svg);
+}
+.btnComprar{
+  display: flex;
+width: 105px;
+height: 32px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 5.442px;
+margin-left: 40%;
+padding: 20px;
+}
+
+.totalCarrito{
+color:#48114D;
+margin-left:50%;
+display: flex;
+width: 105px;
+height: 32px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 5.442px;
+padding: 20px;
+
+
+}
