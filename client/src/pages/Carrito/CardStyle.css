@@ -79,7 +79,7 @@ margin-left: 18px;
 }
 
 .card-categoria{
-color: var(--p-1-purple-strong, #48114D);
+    color: var(--p-1-purple-strong, #48114D);
 text-align: center;
 font-family: Cabin;
 font-size: 13px;
