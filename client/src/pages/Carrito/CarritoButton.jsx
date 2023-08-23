@@ -22,7 +22,7 @@ function CarritoButton() {
                     <ShoppingCartIcon style={{ color: 'white' }} />
                 </Badge>
             </button>
-            {mostrarCarrito && <ContenidoDeCarrito></ContenidoDeCarrito>}
+            {mostrarCarrito && <CarritoContenido></CarritoContenido> }
         </div>
     )
 }

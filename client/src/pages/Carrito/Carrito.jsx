@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Footer from "../../componentes/Footer";
 import NavBar from "../../componentes/NavBar";
 import CarruselCarrito from "./CarruselCarrito";
@@ -72,8 +72,7 @@ function Carrito() {
             </div>
           )}
         
-            <button className="btn btnComprar" onClick={handleImpresion} disabled={listaCompras.length < 1}>COMPRAR</button>
-         
+           <Link className="btnComprar" to='/pasarela'>Comprar</Link>
         </div>
       </main>
       <CarruselCarrito />

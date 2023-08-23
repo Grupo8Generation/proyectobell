@@ -3,12 +3,15 @@
 }
 
 .product-side {
-  background-color: #6F275D;
+  background-color:aqua;
   height: 1040px;
+  
 }
 
 .breadcrumb {
   padding-top: 25px;
 }/*# sourceMappingURL=Pasarela1s.css.map */
-
+.content{
+  background-color: aquamarine;
+}
 

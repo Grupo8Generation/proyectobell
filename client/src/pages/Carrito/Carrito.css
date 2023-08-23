@@ -3,6 +3,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 30px;
+    color: #48114D;
   }
 .btn-custom {
 width: 10px;
@@ -36,28 +37,22 @@ main{
   background-image: url(client/src/img/fondo_cards.svg);
 }
 .btnComprar{
-  display: flex;
-width: 105px;
-height: 32px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border-radius: 5.442px;
-margin-left: 40%;
-padding: 20px;
+  margin-left:600px;
+  margin-top: 50px;
+  font-size: 40px;
+  background-color: #48114D;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+
 }
 
 .totalCarrito{
 color:#48114D;
-margin-left:50%;
-display: flex;
-width: 105px;
-height: 32px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border-radius: 5.442px;
-padding: 20px;
+margin-right: 100px;
+margin-bottom: 50px;
+
 
 
 }
