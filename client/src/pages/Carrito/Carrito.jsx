@@ -4,6 +4,7 @@ import NavBar from "../../componentes/NavBar";
 import CarruselCarrito from "./CarruselCarrito";
 import { useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
+import Navbar3 from '../../pages/Carrito/Navbar3';
 
 function Carrito() {
     const navigate = useNavigate();
@@ -23,7 +24,11 @@ function Carrito() {
 
     return (
         <>
-            <NavBar />
+            <NavBar></NavBar>
+            <div className="container-fluid text-center tienda h1">
+            Carrito de Compras
+        </div>
+            <Navbar3></Navbar3>
             <h2 className="titulo-principal" style={{ paddingLeft: '25px', backgroundColor: '#F9EAEA', paddingRight: '100px' }}>
                 Carrito de compras
             </h2>

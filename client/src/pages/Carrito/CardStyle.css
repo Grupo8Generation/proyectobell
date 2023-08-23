@@ -60,12 +60,7 @@
     align-items: center;
     flex-shrink: 0;
 margin-left: 18px;
-
-
-
 }
-
-
 
 .card-precio {
     color: var(--p-1-purple-strong, #48114D);
@@ -88,7 +83,7 @@ margin-left: 18px;
     line-height: normal;
 }
 
-.card-hashtag{
+.card-categoria{
     color: var(--p-1-purple-strong, #48114D);
 text-align: center;
 font-family: Cabin;

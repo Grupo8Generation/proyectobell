@@ -65,6 +65,7 @@ export const Vitrina = () => {
                     imagenUrl={Producto.imagenUrl}
                     nombre={Producto.nombre}
                     precio={Producto.precio}
+                    categoria={Producto.categoria}
                     handleAgregar={() => handleAgregar(Producto)}
                     handleQuitar={() => handleQuitar(Producto.id)}
                 ></Card1>
