@@ -7,10 +7,8 @@ import Card1 from "../pages/Carrito/Card1"
 import "./Vitrinas.css"
 import { ProductosContext } from "../context/ProductosContext"
 import { CarritoContext } from "../context/CarritoContext"
-import Frame17 from "/Frame17.png";
+import personalizado from "/personalizado.png";
 
-
- 
 
 
 
@@ -64,12 +62,14 @@ export const Vitrina = () => {
         <div className="contenedor-vitrina">
           <div className="card">
       <div>
-        <img src={Frame17} className="card-img-top" alt="personalizado"></img>
+        <img src={personalizado} className="card-img-top" alt="personalizado"></img>
       </div>
       <div className="card-body">
+      <div class="barra-horizontal"></div>
         <h6 className="card-hashtag"> #Personalizado</h6>
-        <h5 className="card-title">Pide tu producto personalizado</h5>
-        <a id="compraYalg" className="btn" href="destino.html" role="button">Pide aquí</a>
+        <h4 className="card-title">Elige tu producto</h4>
+        <h5 className="card-precio">Personalizado</h5>
+        <a id="compraYalg" className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" role="button">Pide aquí</a>
       </div>
           </div>
             {filteredData.map(Producto => (
@@ -77,6 +77,7 @@ export const Vitrina = () => {
                     imagenUrl={Producto.imagenUrl}
                     nombre={Producto.nombre}
                     precio={Producto.precio}
+                    categoria={Producto.categoria}
                     handleAgregar={() => handleAgregar(Producto)}
                     handleQuitar={() => handleQuitar(Producto.id)}
                 ></Card1>
