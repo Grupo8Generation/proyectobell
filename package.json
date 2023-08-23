@@ -4,7 +4,7 @@
   "description": "Descripción de tu proyecto",
   "main": "app.js",
   "scripts": {
-    "dev": "node App.jsx"
+    "dev": "node Vitrine/server.js"
   },
   "engines": {
     "node": "14.x"
