@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import Footer from "../../componentes/Footer";
 import NavBar from "../../componentes/NavBar";
 import CarruselCarrito from "./CarruselCarrito";
@@ -7,15 +8,20 @@ import "./Carrito.css"
 import Navbar2 from "../../componentes/Navbar2";
 
 function Carrito() {
-  const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext);
+    const navigate = useNavigate();
+    const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext);
 
-  const calcularTotal = () => {
-    return listaCompras.reduce((total, item) => total + item.precio * item.cantidad, 0);
-  }
+    const calcularTotal = () => {
+        return listaCompras.reduce((total, item) => total + item.precio * item.cantidad, 0);
+    }
 
-  const handleImpresion = () => {
-    window.print();
-  }
+    const handleCompra = () => {
+        if (listaCompras.length > 0) {
+            navigate('/pasarela');
+        } else {
+            alert('Tu carrito está vacío. Agrega productos antes de comprar.');
+        }
+    }
 
   return (
     <>
