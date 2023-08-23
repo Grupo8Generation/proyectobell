@@ -1,6 +1,5 @@
 import { useContext } from "react"
 import { useEffect, useState } from "react"
-import { Card } from "@mui/material"
 import NavBar from "./NavBar"
 import NavBar2 from "./Navbar2"
 import Footer from "./Footer"
@@ -8,6 +7,8 @@ import Card1 from "../pages/Carrito/Card1"
 import "./vitrinas.css"
 import { ProductosContext } from "../context/ProductosContext"
 import { CarritoContext } from "../context/CarritoContext"
+
+ 
 
 
 
@@ -33,6 +34,7 @@ export const Vitrina = () => {
         const transformedData = data.map(item => ({
           id: item.id, // Asegurarte de usar la propiedad correcta para el id
           nombre: item.nombre,
+          imagenUrl: item.imagenUrl,
           categoria: item.categoria,
           precio: item.precio
         }));
@@ -55,6 +57,7 @@ export const Vitrina = () => {
         <div className="container-fluid text-center tienda h1">
             Tienda
         </div>
+
         <NavBar2 setSelectedCategory={setSelectedCategory} />
         <div className="contenedor-vitrina">
             {filteredData.map(Producto => (

@@ -27,25 +27,28 @@ const CarritoProvider = ({ children }) => {
         }
     };
 
-    // Intenta cargar el carrito desde localStorage.
-    // Si no hay nada en localStorage, utiliza el initialState por defecto.
     const storedCompras = localStorage.getItem("carrito");
     const initialCompras = storedCompras ? JSON.parse(storedCompras) : initialState;
 
     const [listaCompras, dispatch] = useReducer(comprasReducer, initialCompras);
 
-    // Cada vez que listaCompras cambie, guarda el nuevo estado en localStorage.
     useEffect(() => {
         localStorage.setItem("carrito", JSON.stringify(listaCompras));
     }, [listaCompras]);
 
     const agregarCompra = (compra) => {
-        compra.cantidad = 1;
-        const action = {
-            type: '[CARRITO] Agregar Compra',
-            payload: compra
-        };
-        dispatch(action);
+        const productoExistente = listaCompras.find(item => item.id === compra.id);
+
+        if (productoExistente) {
+            aumentarCantidad(compra.id);
+        } else {
+            compra.cantidad = 1;
+            const action = {
+                type: '[CARRITO] Agregar Compra',
+                payload: compra
+            };
+            dispatch(action);
+        }
     }
 
     const aumentarCantidad = (id) => {
