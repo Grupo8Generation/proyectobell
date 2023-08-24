@@ -14,7 +14,7 @@ const CardFija5 = () => {
       <div class="barra-horizontal"></div>
         <h6 className="card-hashtag"> #Bordado</h6>
         <h5 className="card-title">Botas floral</h5>
-        <h3 className="card-text"><strong>$4.000 c/u</strong></h3>
+        <h3 className="card-text"><strong>$4.000</strong></h3>
         <Link to="/tienda" id="compraYalg" className="btn" href="destino.html" role="button">Ver más</Link>
       </div>
     </div>
