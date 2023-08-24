@@ -11,6 +11,7 @@ const CardFija5 = () => {
         <img src={botaImage} className="card-img-top" alt="cascabelconejo"></img>
       </div>
       <div className="card-body">
+      <div class="barra-horizontal"></div>
         <h6 className="card-hashtag"> #Bordado</h6>
         <h5 className="card-title">Botas floral</h5>
         <h3 className="card-text"><strong>$4.000 c/u</strong></h3>

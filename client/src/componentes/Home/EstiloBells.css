@@ -41,10 +41,10 @@
     border: #48114D;
     border-radius: 6px;
     padding: 10px;
+    text-decoration: none;
 }
 
 .boton-tienda:hover{
-    color: #48114D;
-    background-color: white;
-    border:#48114D solid;
+    background-color:#6F275D;
+    color:white;
 }

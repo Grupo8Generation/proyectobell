@@ -12,6 +12,7 @@ const CardFija4 = () => {
         <img src={girasolImage} className="card-img-top" alt="cascabelconejo"></img>
       </div>
       <div className="card-body">
+      <div class="barra-horizontal"></div>
         <h6 className="card-hashtag"> #Personalizado</h6>
         <h5 className="card-title">Flores GIRASOL</h5>
         <h3 className="card-text"><strong>$6.000 c/u</strong></h3>

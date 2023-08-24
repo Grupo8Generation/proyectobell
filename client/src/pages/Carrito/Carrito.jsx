@@ -48,13 +48,13 @@ function Carrito() {
                                         <p><strong>Cantidad:</strong> {item.cantidad}</p>
                                     </div>
                                     <div className="d-flex flex-column align-items-end">
-                                        <button type="button" className="btn" onClick={() => eliminarCompra(item.id)}
+                                        <button type="button" className="btn botonEliminar" onClick={() => eliminarCompra(item.id)}
                                             style={{ backgroundColor: 'transparent', border: 'none', marginBottom: '10px' }}>
                                             <i className="bi bi-trash-fill"></i>
                                         </button>
                                         <div>
                                             <button className="btn btn-outline" onClick={() => disminuirCantidad(item.id)}>-</button>
-                                            <button className="btn ">{item.cantidad}</button>
+                                            <button className="btn botonDeEnMedio ">{item.cantidad}</button>
                                             <button className="btn btn-outline" onClick={() => aumentarCantidad(item.id)}>+</button>
                                         </div>
                                     </div>
@@ -65,6 +65,7 @@ function Carrito() {
                                 <strong>TOTAL:</strong> ${calcularTotal()}
                             </div>
                             <button className="btn botonComprarCar" onClick={handleCompra} disabled={listaCompras.length < 1}>COMPRAR</button>
+                            <Link className="btn botonComprarCar" to="/tienda" >Ir a tienda</Link>
                         </div>
                         </div>
                     )}

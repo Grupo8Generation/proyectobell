@@ -21,7 +21,7 @@ const Hashtag = () => {
                             <br /> Nosotros nos encargamos de hacer realidad tu sueño.”
                         </p>
                         <br />
-                        <Link to="/tienda" className="boton-tienda">Ir al formulario</Link>
+                        <a to="" className="boton-tienda" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" target="blank">Ir al formulario</a>
                     </div>
                 </div>
 
