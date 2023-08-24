@@ -5,24 +5,33 @@
 
 
 
-.LosMas{
-    background-image:url(src/img/fondo_cards.svg);
+.LosMas {
+    background-image: url(src/img/fondo_cards.svg);
     background-size: cover;
     background-position: center;
     width: auto;
     height: 771px;
 }
 
-.LosMas h1, h3,a{
-    color:var(--bs-danger);
+.LosMas h1,
+a {
+    color: var(--bs-danger);
     padding-top: 30px;
+    text-align: center;
 }
 
+.LosMas h3 {
+    color: var(--bs-danger);
+    text-align: center;
+}
 
-.cardMAsVendidas{
+.cardMAsVendidas {
     display: flex;
-  flex-wrap: wrap; /* Puede ser importante para manejar el flujo de varias tarjetas */
-  gap: 70px;
-  justify-content: center;
-  padding-top: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.rowMas{
+    padding-top: 80px;
 }

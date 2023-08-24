@@ -5,6 +5,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './CarritoContenido.css'
 import './CarritoButton.css'
 import { CarritoContext } from "../../context/CarritoContext";
+import { ContenidoDeCarrito } from "./ContenidoDeCarrito";
 
 function CarritoButton() {
     const { listaCompras } = useContext(CarritoContext); // Mueve esta línea aquí, dentro del componente
@@ -15,13 +16,13 @@ function CarritoButton() {
     };
 
     return (
-        <div className="carrito-button">
-            <button onClick={toggleCarrito}>
+        <div className=" carrito-button">
+            <button className="btn btn-outline"onClick={toggleCarrito}>
                 <Badge badgeContent={listaCompras.length} color="primary">
                     <ShoppingCartIcon style={{ color: 'white' }} />
                 </Badge>
             </button>
-            {mostrarCarrito && <CarritoContenido />}
+            {mostrarCarrito && <CarritoContenido></CarritoContenido> }
         </div>
     )
 }

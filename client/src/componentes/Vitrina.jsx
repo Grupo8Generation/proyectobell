@@ -69,7 +69,7 @@ export const Vitrina = () => {
         <h6 className="card-hashtag"> #Personalizado</h6>
         <h4 className="card-title">Elige tu producto</h4>
         <h5 className="card-precio">Personalizado</h5>
-        <a id="compraYalg" className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" role="button">Pide aquí</a>
+        <a id="compraYalg" className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" role="button" target="blank">Pide aquí</a>
       </div>
           </div>
             {filteredData.map(Producto => (

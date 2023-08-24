@@ -29,13 +29,18 @@
 
 }
 
-.boton-form {
+.boton-tienda {
 
-    background-color: white;
+    background-color: #48114D;
+    color: white;
+    border: #48114D solid;
 }
 
-.boton-form:hover {
-    border: white solid;
+.boton-tienda:hover {
+    background-color:#6F275D;
+    color: white;
+    border: #48114D solid;
+   
 }
 
 .boton-emp {
@@ -60,20 +65,21 @@
 
 .link-insta-hash {
 
+    background-color: #6F275D ;
     color: white;
-    background-color: #48114D;
+    border: #6F275D solid;
     width: 120px;
     height: 50px;
-    border: #48114D;
+
     border-radius: 6px;
     padding: 10px;
 }
 
 
 .link-insta-hash:hover {
-    color: #48114D;
-    background-color: white;
-    border: #48114D solid;
+    background-color:#48114D;
+    color: white;
+    border: #6F275D solid;
 }
 .bi-instagram{
     padding-left: 5px;
