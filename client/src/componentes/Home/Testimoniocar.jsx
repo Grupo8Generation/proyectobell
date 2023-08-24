@@ -3,7 +3,7 @@ import './Testimonio-cars.css';
 
 
 const Testimoniocar = ()=>{
-    return <div className="background-container " id="bg-testimonios">
+    return <div className="background-container container-fluid " id="bg-testimonios">
     <div className="container">
         <div className="row">
             <div className="col-md-8 col-center m-auto">

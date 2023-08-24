@@ -8,12 +8,15 @@ import CardFija5 from "../../componentes/CardFijas/CardFija5"
 import CardFija6 from "../../componentes/CardFijas/CardFija6"
 import CardFija7 from "../../componentes/CardFijas/CardFija7"
 import CardFija8 from "../../componentes/CardFijas/CardFija8"
+import "./CarruselCarritos.css"
 
 // Importa tu componente de tarjeta
 
 const CarruselCarrito = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
+      <p className="SugCarr">Sugeridos</p>
+      <p className="BasCarr">Basado en tus preferencias</p>
       <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -39,7 +42,7 @@ const CarruselCarrito = () => {
           </div> 
           {/* Agrega más carousel-items según sea necesario */}
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button className="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </button>

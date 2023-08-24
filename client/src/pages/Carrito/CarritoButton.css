@@ -5,10 +5,10 @@
   color: #48114D;
   padding-left: 40px;
  
-
-
 }
-
+.carrito-button:hover{
+  color: aliceblue;
+}
 
 
 .carrito-button button {

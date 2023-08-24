@@ -4,7 +4,7 @@ import './CarritoContenido.css'
 
 function CarritoContenido(){
     return ( 
-<div className="container carrito-contenido">
+<div className="container-fluid carrito-contenido">
    
 <div>
      

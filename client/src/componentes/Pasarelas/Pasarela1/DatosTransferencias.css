@@ -1,0 +1,34 @@
+.contenidoTransf {
+    color: #48114D;
+    text-align: center;
+    background-color: white;
+    padding: 8%;
+    max-width: 500px;
+    padding-top: 20px;
+
+
+}
+
+.contenedorTransf {
+    background-color: rgb(253, 253, 253);
+    height: 300px;
+    font-size: 20px;
+    max-width: 399px;
+
+}
+
+.tituloTransf {
+    background: var(--p-1-purple-light, #6F275D);
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    flex-shrink: 0;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.btn-cont {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
