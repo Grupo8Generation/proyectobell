@@ -5,7 +5,7 @@ import CarruselCarrito from "./CarruselCarrito";
 import { useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
 import Navbar3 from '../../pages/Carrito/Navbar3';
-
+import "./Carrito.css"
 function Carrito() {
     const navigate = useNavigate();
     const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext);
@@ -29,8 +29,8 @@ function Carrito() {
             Carrito de Compras
         </div>
             <Navbar3></Navbar3>
-            <h2 className="titulo-principal" style={{ paddingLeft: '25px', backgroundColor: '#F9EAEA', paddingRight: '100px' }}>
-                Carrito de compras
+            <h2 className="titulo-principal " >
+                Tus productos seleccionados
             </h2>
             <main style={{ padding: '50px' }}>
                 <div className="contenedor-carrito">
@@ -60,17 +60,23 @@ function Carrito() {
                                     </div>
                                 </div>
                             ))}
-                            <div style={{ marginTop: '20px' }}>
+                            <div className='container-fluid totalBoton'>
+                            <div className='totalCarritoti' >
                                 <strong>TOTAL:</strong> ${calcularTotal()}
                             </div>
+                            <button className="btn botonComprarCar" onClick={handleCompra} disabled={listaCompras.length < 1}>COMPRAR</button>
+                        </div>
                         </div>
                     )}
-                    <div className="d-grid gap-2">
-                        <button className="btn" onClick={handleCompra} disabled={listaCompras.length < 1}>COMPRAR</button>
+                    <div className="">
+                        
                     </div>
+                    <div></div>
                 </div>
             </main>
+            <hr />
             <CarruselCarrito />
+           
             <Footer />
         </>
     );

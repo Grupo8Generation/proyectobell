@@ -48,11 +48,34 @@ main{
 
 }
 
-.totalCarrito{
+.totalCarritoti{
 color:#48114D;
-margin-right: 100px;
-margin-bottom: 50px;
+margin-left: 70%;
+
+}
+
+.titulo-principal{
+padding-top: 25px;
 
 
+} 
+.botonComprarCar{
+  display: flex;
+width: 105px;
+height: 32px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background-color: #48114D;
+color: white;
+}
 
+.botonComprarCar:hover{
+background-color: white;
+}
+
+.totalBoton{
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos alineados en todo el espacio disponible */
+  align-items: center;
 }
