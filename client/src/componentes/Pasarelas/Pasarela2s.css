@@ -1,0 +1,32 @@
+.form-side {
+    height: 1040px;
+  }
+  
+  .product-side {
+    background-color: #6F275D;
+    height: 1040px;
+  }
+  
+  .breadcrumb {
+    padding-top: 25px;
+  }
+  
+  .contenidoGracias{
+    color: #6F275D;
+  }
+
+  .contenidoGracias .btn{
+    background-color:  #48114D;
+    border: #6F275D;
+    color: white;
+    padding-top: 13px;
+  
+  }
+
+  .contenidoGracias .btn:hover{
+    background-color:   #6F275D;
+    color: white;
+  }
+  .imgGracias{
+    width: 190px;
+  }

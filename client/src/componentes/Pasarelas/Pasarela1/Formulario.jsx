@@ -3,6 +3,7 @@ import './Formularios.scss'
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import DatosTransferencia from './DatosTransferencia';
+import { Link } from 'react-router-dom';
 
 function Formulario() {
     const [contactNumber, setContactNumber] = useState(Math.random() * 100000 | 0);
@@ -95,7 +96,7 @@ function Formulario() {
                         >
                             Confirmar
                         </button>
-                     
+<Link to="/Pasarela2">Link</Link>
                       <br />
                         
                         </div>
