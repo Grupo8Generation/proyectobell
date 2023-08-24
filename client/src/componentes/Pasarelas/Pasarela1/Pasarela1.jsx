@@ -5,23 +5,23 @@ import Formulario from './Formulario'
 import './Pasarela1s.scss'
 
 export const Pasarela1 = () => {
-    
+
     return <div>
         <NavBar></NavBar>
         <div className="container-fluid">
             <div className="row">
-             
+
                 <div className="form-side col-6 ">
-                   
-                  <Formulario></Formulario>
-     
+
+                    <Formulario></Formulario>
+
                 </div>
                 <div className="product-side  col-6">
-                    
-                        <ContenidoDeCarrito></ContenidoDeCarrito>
-                    
+
+                    <ContenidoDeCarrito></ContenidoDeCarrito>
+
                 </div>
-         
+
             </div>
 
         </div>

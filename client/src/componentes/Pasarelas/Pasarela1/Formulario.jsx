@@ -1,5 +1,6 @@
 import Breadcrumb from './Breadcrumb'
 import './Formularios.scss'
+
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import DatosTransferencia from './DatosTransferencia';
@@ -54,7 +55,7 @@ function Formulario() {
                     </div>
 
                     <div className="col-md-8 p-2">
-                        <p className="h4">Direccion {!direccion && <span style={{ color: 'red' }}>*</span>}</p>
+                        <p className="h4">Dirección {!direccion && <span style={{ color: 'red' }}>*</span>}</p>
                         <input name="direccion" className="form-control" type="text" placeholder="Direccion" value={direccion} onChange={(e) => setDireccion(e.target.value)} />
                     </div>
 
@@ -69,12 +70,12 @@ function Formulario() {
                     </div>
 
                     <div className="col-md-6 p-2 form-element">
-                        <p className="h4">Codigo Postal {!codigo && <span style={{ color: 'red' }}>*</span>}</p>
+                        <p className="h4">Código Postal {!codigo && <span style={{ color: 'red' }}>*</span>}</p>
                         <input name="codigo" className="form-control" type="text" placeholder="Codigo postal" value={codigo} onChange={(e) => setCodigo(e.target.value)} />
                     </div>
 
                     <div className="col-md-6 p-2 telefonoForm">
-                        <p className="h4">Telefono {!telefono && <span style={{ color: 'red' }}>*</span>}</p>
+                        <p className="h4">Teléfono {!telefono && <span style={{ color: 'red' }}>*</span>}</p>
                         <input name="telefono" className="form-control" type="text" placeholder="Telefono" value={telefono} onChange={(e) => setTelefono(e.target.value)} />
                     </div>
 
