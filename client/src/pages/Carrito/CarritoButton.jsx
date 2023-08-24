@@ -16,8 +16,8 @@ function CarritoButton() {
     };
 
     return (
-        <div className="carrito-button">
-            <button onClick={toggleCarrito}>
+        <div className=" carrito-button">
+            <button className="btn btn-outline"onClick={toggleCarrito}>
                 <Badge badgeContent={listaCompras.length} color="primary">
                     <ShoppingCartIcon style={{ color: 'white' }} />
                 </Badge>

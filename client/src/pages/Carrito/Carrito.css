@@ -50,7 +50,7 @@ main{
 
 .totalCarritoti{
 color:#48114D;
-margin-left: 70%;
+margin-left: 55%;
 
 }
 
@@ -71,11 +71,29 @@ color: white;
 }
 
 .botonComprarCar:hover{
-background-color: white;
+background-color:#6F275D;
+color:white;
 }
 
 .totalBoton{
   display: flex;
   justify-content: space-between; /* Distribuye los elementos alineados en todo el espacio disponible */
   align-items: center;
+}
+
+.botonDeEnMedio:hover{
+  background-color:transparent;
+  color: #48114D;
+  border: #48114D solid;
+
+}
+
+.btn-outline:hover{
+  background-color: #6F275D;
+}
+
+.botonEliminar:hover{
+  color:#6F275D;
+
+
 }

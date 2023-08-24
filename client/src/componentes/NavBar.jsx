@@ -22,7 +22,7 @@ const NavBar = () => {
                                     <NavLink className="nav-link NosLink" to='/home' >Nosotros</NavLink>
                                 </li>
                                 <li className="nav-item text-pink">
-                                    <a className="nav-link " href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform">Pedido personalizado</a>
+                                    <a className="nav-link "  href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" target="blank">Pedido personalizado</a>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink to="/pasarela" className="nav-link " href="#">Envíos</NavLink>

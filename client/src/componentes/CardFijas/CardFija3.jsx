@@ -13,6 +13,7 @@ const CardFija3 = () => {
         <img src={conImage} className="card-img-top" alt="cascabelconejo"></img>
       </div>
       <div className="card-body">
+      <div class="barra-horizontal"></div>
         <h6 className="card-hashtag"> #Amigurumi</h6>
         <h5 className="card-title">Cascabel argolla </h5>
         <h3 className="card-text"><strong>$6.000</strong></h3>

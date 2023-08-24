@@ -2,6 +2,14 @@
   background-color: #6F275D;
   border: #6F275D;
   color: white;
+  padding: 90px;
+  margin: 90px;
+}
+
+.boton-form:disabled{
+  padding: 80px;
+  background-color: #6F275D;
+ 
 }
 
 .boton-form:hover {
@@ -11,14 +19,29 @@
 }
 
 
-.form-container {
-max-width: 500px;
-align-items: start;
-max-height: 500px;
-}
-
 .form-element{
   display: inline-block;
   width: 50%;
   text-align: left; 
+}
+
+.btn-cont {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.contenedorBotonForm{
+  padding: 90px;
+}
+
+.contenedorSeparador{
+width: 90px;
+height: 90px;
+}
+
+.formSoloDatos{
+  padding: 40px;
+}
+.contenedorDatos{
+  padding-bottom: 50px;
 }

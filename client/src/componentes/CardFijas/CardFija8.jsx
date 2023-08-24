@@ -12,6 +12,7 @@ const CardFija8 = () => {
         <img src={zapImage} className="card-img-top" alt="cascabelconejo"></img>
       </div>
       <div className="card-body">
+      <div class="barra-horizontal"></div>
         <h6 className="card-hashtag"> #ZapatillasBebe</h6>
         <h5 className="card-title">Zapatillas Replicas NIke</h5>
         <h3 className="card-text"><strong>$4.000</strong></h3>
