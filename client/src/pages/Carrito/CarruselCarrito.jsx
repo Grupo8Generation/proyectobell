@@ -14,7 +14,7 @@ import "./CarruselCarritos.css"
 
 const CarruselCarrito = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <p className="SugCarr">Sugeridos</p>
       <p className="BasCarr">Basado en tus preferencias</p>
       <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">

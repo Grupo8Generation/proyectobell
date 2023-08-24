@@ -27,7 +27,8 @@ function Formulario() {
 
         <br />
         <Breadcrumb />
-        <p className='h2 px-4'>Contacto</p>
+        <p className='h3 px-4'>Paso 1</p>
+        <p className='h5'>Rellena los datos del formulario</p>
         <div className='container-fluid form-container'>
             <form onSubmit={handleSubmit}>
                 <input type="hidden" name="contact_number" value={contactNumber} />
