@@ -3,9 +3,56 @@
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 30px;
+    color: #48114D;
   }
 .btn-custom {
 width: 10px;
 height: 10px;
 }
-  
+
+
+.titulo-principal{
+color: var(--p-1-purple-strong, #48114D);
+text-align: start;
+font-family: Cabin;
+font-size: 45.78px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+padding-left: 15%;
+  }
+
+main{
+  align-items: center;
+}
+
+.contenedor-carrito{
+
+  padding-left: 15%;
+}
+
+.fondoCarrito{
+
+  background-image: url(client/src/img/fondo_cards.svg);
+}
+.btnComprar{
+  margin-left:600px;
+  margin-top: 50px;
+  font-size: 40px;
+  background-color: #48114D;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.totalCarrito{
+color:#48114D;
+margin-right: 100px;
+margin-bottom: 50px;
+
+
+
+}

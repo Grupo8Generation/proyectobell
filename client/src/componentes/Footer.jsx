@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Footers.css';
 
 const Footer = () => {
@@ -13,16 +13,16 @@ const Footer = () => {
                     <div className="col-lg-2 col-md-12 col-sm-12 bottom-bar-section">
                        
                         <ul className="list-unstyled mb-0">
-                            <li><a href="#" className="bottom-bar-link"><b>Nosotros</b></a></li>
-                            <li><a href="#" className="bottom-bar-link"><b>Pedidos</b></a></li>
-                            <li><a href="#" className="bottom-bar-link">Envios</a></li>
+                            <li><NavLink to="/" className='LinkLegal'>Nosotros</NavLink></li>
+                            <li><Link className="bottom-bar-link " to="">Pedido personalizado</Link></li>
+                            <li><a href="" className="bottom-bar-link"><b>Envios</b></a></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-12 col-sm-12 bottom-bar-section">
             
                         <ul className="list-unstyled mb-0">
-                            <li><a href="#" className="bottom-bar-link"><b>Preguntas frecuentes</b></a></li>
-                            <li><Link to="/aspectosLegales"><b>Legal</b></Link></li>
+                            <li><Link to="/preguntasFrecuentes"className="bottom-bar-link"><b>Preguntas frecuentes</b></Link></li>
+                            <li><Link className="LinkLegal" to="/aspectosLegales"><b>Legal</b></Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-12 col-sm-12 bottom-bar-section">

@@ -10,11 +10,15 @@
   color: #6F275D;
 }
 
-.btn-cont {
-  padding-top: 70px;
-  padding-left: 130px;
-}
 
 .form-container {
-  padding: 10px;
-}/*# sourceMappingURL=Formularios.css.map */
+max-width: 500px;
+align-items: start;
+max-height: 500px;
+}
+
+.form-element{
+  display: inline-block;
+  width: 50%;
+  text-align: left; 
+}

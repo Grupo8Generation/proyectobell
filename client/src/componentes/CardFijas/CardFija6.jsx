@@ -1,5 +1,8 @@
 import './Cards.css'
 import cha3dImage from "./BeLLImg600/Frame26.png"
+import { Link } from 'react-router-dom';
+
+
 const CardFija6 = () => {
 
 
@@ -12,7 +15,7 @@ const CardFija6 = () => {
         <h6 className="card-hashtag"> #Personalizado</h6>
         <h5 className="card-title">Chaleco 3d</h5>
         <h3 className="card-text"><strong>$20.000</strong></h3>
-        <a id="compraYalg" className="btn" href="destino.html" role="button">Ver más</a>
+        <Link to="/tienda" id="compraYalg" className="btn" href="destino.html" role="button">Ver más</Link>
       </div>
     </div>
   </>

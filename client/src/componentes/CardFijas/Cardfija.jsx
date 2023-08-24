@@ -1,6 +1,6 @@
 import './Cards.css'
 import amigurumiconejitoImage from "../CardFijas/BeLLImg600/amigurumiconejito.jpg"
-
+import { Link } from 'react-router-dom';
 
 
 const Card = () => {
@@ -15,7 +15,7 @@ const Card = () => {
         <h6 className="card-hashtag"> #Cascabel</h6>
         <h5 className="card-title">Cascabel de Conejito</h5>
         <h3 className="card-text"><strong>$18.000</strong></h3>
-        <a id="compraYalg" className="btn" href="destino.html" role="button">Ver más</a>
+        <Link to="/tienda" id="compraYalg" className="btn" href="destino.html" role="button">Ver más</Link>
       </div>
     </div>
   </>
