@@ -1,5 +1,4 @@
 
-
 .vitrina-productos{
     min-height: 890px;
 }
@@ -26,6 +25,8 @@
 
 
 .contenedor-vitrina{
+    background-image: url(src/img/fondo-floral.png);
+    background-size: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); /* Crea columnas automáticas con un ancho mínimo de 300px */
     gap: 40px;

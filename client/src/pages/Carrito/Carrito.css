@@ -1,3 +1,4 @@
+
 .producto {
     border: 8px solid #ccc;
     padding: 10px;
@@ -9,7 +10,6 @@
 width: 10px;
 height: 10px;
 }
-
 
 .titulo-principal{
 color: var(--p-1-purple-strong, #48114D);

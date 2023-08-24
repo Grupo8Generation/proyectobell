@@ -16,12 +16,12 @@ export const Vitrina = () => {
 
   const { productos } = useContext(ProductosContext)
   const { agregarCompra, eliminarCompra } = useContext(CarritoContext)
-  
+
   const handleAgregar = (compra) => {
-      agregarCompra(compra)
+    agregarCompra(compra)
   }
   const handleQuitar = (id) => {
-      eliminarCompra(id)
+    eliminarCompra(id)
   }
 
   const [data, setData] = useState([]);
@@ -38,7 +38,7 @@ export const Vitrina = () => {
           categoria: item.categoria,
           precio: item.precio
         }));
-  
+
         setData(transformedData);
       })
       .catch(error => {
@@ -53,10 +53,10 @@ export const Vitrina = () => {
 
   return <>
 
- <NavBar></NavBar>
-        <div className="container-fluid text-center tienda h1">
-            Tienda
-        </div>
+    <NavBar></NavBar>
+    <div className="container-fluid text-center tienda h1">
+      Tienda
+    </div>
 
         <NavBar2 setSelectedCategory={setSelectedCategory} />
         <div className="contenedor-vitrina">
