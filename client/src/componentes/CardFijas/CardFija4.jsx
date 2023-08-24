@@ -10,9 +10,9 @@ const CardFija4 = () => {
       </div>
       <div className="card-body">
         <h6 className="card-hashtag"> #Personalizado</h6>
-        <h5 className="card-title">Flores GIRASOL</h5>
-        <h3 className="card-text"><strong>$6.000 c/u</strong></h3>
-        <a id="compraYalg" className="btn" href="destino.html" role="button">Comprar</a>
+        <h5 className="card-title">Flores Girasol</h5>
+        <h3 className="card-text"><strong>$6.000 </strong></h3>
+        <a id="compraYalg" className="btn" href="destino.html" role="button">Ver más</a>
       </div>
     </div>
   </>

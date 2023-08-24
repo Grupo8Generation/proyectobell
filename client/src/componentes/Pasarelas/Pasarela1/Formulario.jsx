@@ -3,6 +3,7 @@ import Breadcrumb from './Breadcrumb'
 import './Formularios.scss'
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { Link } from 'react-router-dom';
 
 
 function Formulario() {
@@ -16,7 +17,6 @@ function Formulario() {
             console.log('SUCCESS!');
         } catch (error) {
             console.log('FAILED...', error);
-
 
         }
     }
@@ -70,8 +70,8 @@ function Formulario() {
             </div>
 
             <div className="col-12 btn-cont">
-            <input type="submit" value="Send" />
-                <button className="btn boton-form" type="submit">Confirmar</button>
+            <input type="submit" value="Send" to="/Pasarela2"/>
+                <Link className="btn boton-form" type="submit" to="/Pasarela2">Confirmar</Link>
             </div>
         </form>
         </div>

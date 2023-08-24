@@ -16,12 +16,12 @@ export const Vitrina = () => {
 
   const { productos } = useContext(ProductosContext)
   const { agregarCompra, eliminarCompra } = useContext(CarritoContext)
-  
+
   const handleAgregar = (compra) => {
-      agregarCompra(compra)
+    agregarCompra(compra)
   }
   const handleQuitar = (id) => {
-      eliminarCompra(id)
+    eliminarCompra(id)
   }
 
   const [data, setData] = useState([]);
@@ -38,7 +38,7 @@ export const Vitrina = () => {
           categoria: item.categoria,
           precio: item.precio
         }));
-  
+
         setData(transformedData);
       })
       .catch(error => {
@@ -53,38 +53,37 @@ export const Vitrina = () => {
 
   return <>
 
- <NavBar></NavBar>
-        <div className="container-fluid text-center tienda h1">
-            Tienda
-        </div>
+    <NavBar></NavBar>
+    <div className="container-fluid text-center tienda h1">
+      Tienda
+    </div>
 
-        <NavBar2 setSelectedCategory={setSelectedCategory} />
-        <div className="contenedor-vitrina">
-          <div className="card">
-      <div>
-        <img src={personalizado} className="card-img-top" alt="personalizado"></img>
-      </div>
-      <div className="card-body">
-      <div class="barra-horizontal"></div>
-        <h6 className="card-hashtag"> #Personalizado</h6>
-        <h4 className="card-title">Elige tu producto</h4>
-        <h5 className="card-precio">Personalizado</h5>
-        <a id="compraYalg" className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" role="button">Pide aquí</a>
-      </div>
-          </div>
-            {filteredData.map(Producto => (
-                <Card1 key={Producto.id}
-                    imagenUrl={Producto.imagenUrl}
-                    nombre={Producto.nombre}
-                    precio={Producto.precio}
-                    categoria={Producto.categoria}
-                    handleAgregar={() => handleAgregar(Producto)}
-                    handleQuitar={() => handleQuitar(Producto.id)}
-                ></Card1>
-            ))}
+    <NavBar2 setSelectedCategory={setSelectedCategory} />
+    <div className="contenedor-vitrina">
+      <div className="card">
+        <div>
+          <img src={personalizado} className="card-img-top" alt="personalizado"></img>
         </div>
-
-        <Footer />
-    </>
+        <div className="card-body">
+          <div class="barra-horizontal"></div>
+          <h6 className="card-hashtag"> #Personalizado</h6>
+          <h4 className="card-title">Elige tu producto</h4>
+          <h5 className="card-precio">Personalizado</h5>
+          <a id="compraYalg" className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" role="button">Pide aquí</a>
+        </div>
+      </div>
+      {filteredData.map(Producto => (
+        <Card1 key={Producto.id}
+          imagenUrl={Producto.imagenUrl}
+          nombre={Producto.nombre}
+          precio={Producto.precio}
+          categoria={Producto.categoria}
+          handleAgregar={() => handleAgregar(Producto)}
+          handleQuitar={() => handleQuitar(Producto.id)}
+        ></Card1>
+      ))}
+    </div>
+    <Footer />
+  </>
 }
 export default Vitrina;

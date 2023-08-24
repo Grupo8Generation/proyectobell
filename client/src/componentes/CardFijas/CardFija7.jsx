@@ -9,10 +9,10 @@ const CardFija7 = () => {
         <img src={botAmImage} className="card-img-top" alt="cascabelconejo"></img>
       </div>
       <div className="card-body">
-        <h6 className="card-hashtag"> #BotitasBebe</h6>
+        <h6 className="card-hashtag"> #BotitasBebé</h6>
         <h5 className="card-title">Botas botón</h5>
         <h3 className="card-text"><strong>$8.500</strong></h3>
-        <a id="compraYalg" className="btn" href="destino.html" role="button">Comprar</a>
+        <a id="compraYalg" className="btn" href="destino.html" role="button">Ver más</a>
       </div>
     </div>
   </>
