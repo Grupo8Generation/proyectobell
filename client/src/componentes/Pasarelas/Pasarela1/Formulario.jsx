@@ -91,7 +91,6 @@ function Formulario() {
                        <div className='contenedorBotonForm '> 
                         <button
                             className="btn botonFormulario"
-                            to='/Pasarela2'
                             type="submit"
                             disabled={!nombre || !apellido || !email || !direccion || !comuna || !telefono || !codigo}
                         >
