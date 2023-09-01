@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { CarritoContext } from '../../context/CarritoContext';
-import "./ContenidodeCarritos.css"
+import "./ContenidoDeCarritos.css"
 
 export const ContenidoDeCarrito = () => {
 
