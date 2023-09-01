@@ -6,6 +6,10 @@ import { useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
 import Navbar3 from '../../pages/Carrito/Navbar3';
 import "./Carrito.css"
+import React from 'react';
+
+
+
 function Carrito() {
     const navigate = useNavigate();
     const { listaCompras, aumentarCantidad, disminuirCantidad, eliminarCompra } = useContext(CarritoContext);

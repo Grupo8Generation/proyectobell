@@ -1,6 +1,7 @@
 import Footer from "../Footer";
 import NavBar from "../NavBar";
 import "./PreguntasFrecuentess.css"
+import React from 'react';
 
 
 const PreguntasFrecuentes = () =>{

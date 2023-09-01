@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from "./componentes/NavBar";
 import EstiloBell from "./componentes/Home/EstiloBell"
 import Nosotros from "./componentes/Home/Nosotros";

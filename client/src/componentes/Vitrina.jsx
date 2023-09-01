@@ -7,7 +7,8 @@ import Card1 from "../pages/Carrito/Card1"
 import "./Vitrinas.css"
 import { ProductosContext } from "../context/ProductosContext"
 import { CarritoContext } from "../context/CarritoContext"
-import personalizado from "/personalizado.png";
+import React from 'react';
+
 
 
 
@@ -62,10 +63,10 @@ export const Vitrina = () => {
         <div className="contenedor-vitrina">
           <div className="card">
       <div>
-        <img src={personalizado} className="card-img-top" alt="personalizado"></img>
+        
       </div>
       <div className="card-body">
-      <div class="barra-horizontal"></div>
+      <div className="barra-horizontal"></div>
         <h6 className="card-hashtag"> #Personalizado</h6>
         <h4 className="card-title">Elige tu producto</h4>
         <h5 className="card-precio">Personalizado</h5>

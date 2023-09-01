@@ -6,6 +6,8 @@ import './CarritoContenido.css'
 import './CarritoButton.css'
 import { CarritoContext } from "../../context/CarritoContext";
 import { ContenidoDeCarrito } from "./ContenidoDeCarrito";
+import React from 'react';
+
 
 function CarritoButton() {
     const { listaCompras } = useContext(CarritoContext); // Mueve esta línea aquí, dentro del componente

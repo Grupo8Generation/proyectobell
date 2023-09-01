@@ -4,6 +4,8 @@ import CardFija2 from '../CardFijas/CardFija2';
 import CardFija3 from '../CardFijas/CardFija3';
 import CardFija4 from '../CardFijas/CardFija4';
 import "./MasVendidos.css";
+import React from 'react';
+
 
 
 const MasVendido = () => {

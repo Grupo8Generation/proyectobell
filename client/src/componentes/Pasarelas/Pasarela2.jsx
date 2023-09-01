@@ -19,7 +19,7 @@ export const Pasarela2 = () => {
                         top: '30%',
                         padding: "20%",
                     }}>
-                         <img class="imgGracias" src={logoBell} alt="logo de compra"></img>
+                         <img className="imgGracias" src={logoBell} alt="logo de compra"></img>
                         <div className='container-fluid contenidoGracias'> 
                      <p className='h3 '>¡Gracias por tu Compra!</p>
                      <p className='h5 '>¡Felicidades!, tu pedido ya fue reservado comunícate por correo a Bell.tejidosdeamor@gmail.com para más información. </p>

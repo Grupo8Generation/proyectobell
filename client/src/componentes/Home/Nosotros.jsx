@@ -1,4 +1,5 @@
 import "./Nosotross.css"
+import React from 'react';
 
 
 const Nosotros= ()=>{
