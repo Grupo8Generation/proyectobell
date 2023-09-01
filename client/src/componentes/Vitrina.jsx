@@ -7,7 +7,7 @@ import Card1 from "../pages/Carrito/Card1"
 import "./Vitrinas.css"
 import { ProductosContext } from "../context/ProductosContext"
 import { CarritoContext } from "../context/CarritoContext"
-import personalizado from "/personalizado.png";
+import personalizado from "../img/personalizado.png";
 
 
 
