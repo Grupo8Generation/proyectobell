@@ -9,7 +9,7 @@ const  ProductosProvider = ({children}) => {
 
     const fetchProductos = async() => {
         try{
-    const response = await fetch('http://localhost:3000/products')
+    const response = await fetch('https://belltejidosconamor22.onrender.com/products')
         const data = await response.json()
         
         setProductos(data)
