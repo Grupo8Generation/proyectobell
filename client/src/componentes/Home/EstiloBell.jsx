@@ -4,8 +4,15 @@ import './EstiloBells.css'
 
 
 const EstiloBell = () =>{
+    const backgroundImageStyle = {
+        backgroundImage: 'url("client/public/fondo_estiloBell.png")',
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+      };
+
+
 return<>
-<div className="container-fluid " id="estiloBell">
+<div className="container-fluid " id="estiloBell" style={backgroundImageStyle}>
 <div className=" textoEstilo   ">
     <span className=" EstiloBellH fw-bold display-4">#EstiloBell </span> 
     <br></br>
