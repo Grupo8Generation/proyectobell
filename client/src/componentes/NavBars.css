@@ -7,7 +7,7 @@
 
 .navbar {
     background-color: white;
-    padding-left: 180px;
+    padding-left: 16%;
     display: flex;
   
     height: 98px;
@@ -46,10 +46,7 @@ div nav img {
     background-color: #48114D;
 }
 
-.navbar-toggler {
-    margin: 30px;
-    margin-right: 100px;
-}
+
 
 .navbar-collapse {
     padding-left: px;

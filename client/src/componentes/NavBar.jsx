@@ -1,7 +1,7 @@
 import './NavBars.css'
 import { Link, NavLink } from 'react-router-dom';
 import CarritoButton from '../pages/Carrito/CarritoButton';
-
+import logo_redondo from "./Home/img2/bell_logo_redondo.png"
 
 
 const NavBar = () => {
@@ -10,7 +10,7 @@ const NavBar = () => {
 
             <nav id="menu" className="navbar navbar-expand-lg">
                 <div className='container-fluid'>
-                    <img src='src/img/Frame_15-removebg-preview.png' alt="LogoBell"></img>
+                    <img src={logo_redondo} alt="LogoBell"></img>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
