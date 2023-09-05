@@ -4,18 +4,17 @@
 }
 
 
-
 .navbar {
     background-color: white;
+<<<<<<< HEAD
     padding-left: 16%;
+=======
+    padding-left: 27%;
+>>>>>>> 9ab0604b9a3c891e43194413757b70510a1ec8cd
     display: flex;
-  
     height: 98px;
-    justify-content: center;
-    align-items: center;
     flex-shrink: 0;
-
-
+    z-index: 111;
 }
 
 div nav img {
@@ -50,6 +49,7 @@ div nav img {
 
 .navbar-collapse {
     padding-left: px;
+    margin-top: -10px;
 }
 .navbar-nav .nav-link.active, .navbar-nav  {
     color:#48114D;
@@ -57,4 +57,16 @@ div nav img {
 
 .nav-link.active:hover{
     color: white;
+}
+.custom-navbar-bg{
+    background-color: white;
+}
+
+#logobell{
+    margin-top: -10px;
+    margin-left: -100px;
+}
+
+.navbar-toggler{
+    margin-right: 30px;
 }
