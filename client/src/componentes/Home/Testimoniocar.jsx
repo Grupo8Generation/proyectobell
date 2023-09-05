@@ -2,8 +2,8 @@ import './Testimonio-cars.css';
 
 import testimonioCar from "./img2/FONDO_cARRUSEL2.svg";
 import testimonio1 from "./img2/testimonio1.jpg";
-import testimonio2 from "./img2/testimonio2";
-import testimonio3 from "./img2/testimonio3";
+import testimonio2 from "./img2/testimonio2.jpg";
+import testimonio3 from "./img2/testimonio3.jpg";
 const Testimoniocar = ()=>{
    
     const backgroundImageStyle = {
