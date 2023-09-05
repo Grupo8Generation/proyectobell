@@ -1,15 +1,11 @@
 import './Testimonio-cars.css';
-import fondo_testimonios from "./img2/fondo_testimoniales.svg"
+
 
 
 const Testimoniocar = ()=>{
-    const backgroundImageStyle = {
-        backgroundImage: `url(${fondo_testimonios})`,
-        backgroundSize: 'cover', 
-        backgroundPosition: 'center', 
-      };
+   
 
-    return <div className="background-container container-fluid " id="bg-testimonios" style={backgroundImageStyle}>
+    return <div className="background-container container-fluid " id="bg-testimonios" >
     <div className="container">
         <div className="row">
             <div className="col-md-8 col-center m-auto">
