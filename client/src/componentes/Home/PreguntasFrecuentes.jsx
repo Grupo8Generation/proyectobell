@@ -17,7 +17,7 @@ const PreguntasFrecuentes = () =>{
       </button>
     </h2>
     <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam, quisquam, facilis quo porro veritatis ut tempore reiciendis recusandae suscipit laudantium et nemo, a ad ullam praesentium dicta atque. Provident?</div>
+      <div className="accordion-body"> Sí, en nuestra página contamos con un formulario de pedidos personalizados donde podrás describir detalles de tu producto y archivar fotos de referencia, posterior a eso será enviado un mail con la respuesta de factibilidad del pedido y de agenda disponibles para poder comenzar.</div>
     </div>
   </div>
   <div className="accordion-item">
@@ -27,7 +27,8 @@ const PreguntasFrecuentes = () =>{
       </button>
     </h2>
     <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni nihil corporis libero nesciunt pariatur sint. Officiis, aut illo minima iusto quasi aspernatur fugiat delectus? Voluptate incidunt cupiditate doloribus in sequi?</div>
+      <div className="accordion-body">Somos una tienda online, sin tienda física, pero el taller está ubicado en la Región Metropolitana, comuna de Renca, y contamos con envíos dentro y fuera de la región por distintos tipos de servicios, los cuales podrás elegir al momento de realizar tu compra.
+</div>
     </div>
   </div>
   <div className="accordion-item">
@@ -37,7 +38,7 @@ const PreguntasFrecuentes = () =>{
       </button>
     </h2>
     <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deleniti facilis, iste quos quod autem, corporis maiores eos, placeat repudiandae fuga. Ad quo eius voluptate quisquam? Repellat nam veritatis consequatur.</div>
+      <div className="accordion-body">En la amplia gama de productos que fabricamos encontrarás materias primas tales como lana acrílicas, lana natural de oveja, hilos acrílicos, hilos 100% algodón y en casos de pedidos especiales y personalizados puedes agregar en los requerimientos algún otro tipo de hilo o lana en específico.</div>
     </div>
   </div>
 </div>
