@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Hashtags.css"
-
+import crochet from "./img2/crochet_img.png"
 
 
 const Hashtag = () => {
@@ -25,7 +25,7 @@ const Hashtag = () => {
                     </div>
                 </div>
 
-                <img src="src/img/crochet_img.png" className="img-fluid  col-lg-6 order-lg-2 col-sm-12 col-md-12 order-sm-2 order-md-2 p-0" alt=""></img>
+                <img src={crochet} className="img-fluid  col-lg-6 order-lg-2 col-sm-12 col-md-12 order-sm-2 order-md-2 p-0" alt=""></img>
 
                 <img src="src/img/repartidor_img.png" className="img-fluid col-lg-6 order-lg-3 col-sm-12 col-md-12 order-sm-4 order-md-4 p-0 m-0" alt=""></img>
 
