@@ -5,7 +5,7 @@ import testimonioCar from "./img2/FONDO_cARRUSEL2.svg"
 const Testimoniocar = ()=>{
    
     const backgroundImageStyle = {
-        backgroundImage: `url(${fondo_testimonios})`,
+        backgroundImage: `url(${testimonioCar})`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center', 
       };
