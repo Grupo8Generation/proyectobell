@@ -5,7 +5,7 @@ import backgroundImage1 from './img2/fondo_estiloBell.png';
 
 const EstiloBell = () =>{
     const backgroundImageStyle = {
-        backgroundImage: 'url(${backgroundImage1})',
+        backgroundImage: `url(${backgroundImage1})`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center', 
       };
