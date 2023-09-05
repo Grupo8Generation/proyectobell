@@ -27,7 +27,7 @@ export const Vitrina = () => {
   const [data, setData] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
   useEffect(() => {
-    fetch('http://localhost:3000/products')
+    fetch('https://belltejidosconamor22.onrender.com/products')
       .then(response => response.json())
       .then(data => {
         // Transformar los datos para asegurarse de que tengan la estructura esperada
