@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import "./Hashtags.css"
-
-
+import crochet from "./img2/crochet_img.png"
+import repartidor from "./img2/repartidor_img.png"
 
 const Hashtag = () => {
     return <>
+    <div className="container-fluid">
         <div id="Hashtagss" className="container-fluid hashtags">
             <div className=" row  ">
 
@@ -20,13 +21,13 @@ const Hashtag = () => {
                             <br /> Nosotros nos encargamos de hacer realidad tu sueño.”
                         </p>
                         <br />
-                        <Link to="/tienda" className="boton-tienda">Ir al formulario</Link>
+                        <a to="" className="boton-tienda" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" target="blank">Ir al formulario</a>
                     </div>
                 </div>
 
-                <img src="src/img/crochet_img.png" className="img-fluid  col-lg-6 order-lg-2 col-sm-12 col-md-12 order-sm-2 order-md-2 p-0" alt=""></img>
+                <img src={crochet} className="img-fluid  col-lg-6 order-lg-2 col-sm-12 col-md-12 order-sm-2 order-md-2 p-0" alt=""></img>
 
-                <img src="src/img/repartidor_img.png" className="img-fluid col-lg-6 order-lg-3 col-sm-12 col-md-12 order-sm-4 order-md-4 p-0 m-0" alt=""></img>
+                <img src={repartidor} className="img-fluid col-lg-6 order-lg-3 col-sm-12 col-md-12 order-sm-4 order-md-4 p-0 m-0" alt=""></img>
 
                 <div className="emprendimiento col-lg-6 order-lg-4 col-sm-12 order-sm-3 col-md-12  order-md-3  p-5">
                     <div className='content-emp'>
@@ -59,6 +60,7 @@ const Hashtag = () => {
 
 
             </div>
+        </div>
         </div>
     </>
 

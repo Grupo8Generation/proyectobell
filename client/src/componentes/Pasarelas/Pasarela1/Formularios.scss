@@ -2,7 +2,6 @@
     background-color: #6F275D ;
     border: #6F275D;
     color: white;
-    
 }
 
 .boton-form:hover{
@@ -11,11 +10,65 @@
     color:#6F275D;
 }
 
-.btn-cont{
-    padding-top: 70px;
-    padding-left:130px;
-}
-.form-container{
-    padding: 10px;
+
+
+.boton-form {
+    background-color: #6F275D;
+    border: #6F275D;
+    color: white;
+    padding: 90px;
+    margin: 90px;
+  }
+  
+  .boton-form:disabled{
+    padding: 80px;
+    background-color: #6F275D;
    
+  }
+  
+  .boton-form:hover {
+    border: #6F275D solid;
+    background-color: white;
+    color: #6F275D;
+  }
+  
+  
+  .form-element{
+    display: inline-block;
+    text-align: left; 
+  }
+  
+
+  .botonFormulario{
+    margin-left: 40%;
+    background-color:   #48114D;
+    color: white;
+
+  }
+  
+  .botonFormulario:hover{
+    margin-left: 40%;
+    background-color:   #6F275D;
+    color: white;
+
+  }
+  .btn-cont {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.contenedorBotonForm{
+  padding: 90px;
+}
+
+.contenedorSeparador{
+width: 90px;
+height: 90px;
+}
+
+.formSoloDatos{
+  padding: 40px;
+}
+.contenedorDatos{
+  padding-bottom: 50px;
 }

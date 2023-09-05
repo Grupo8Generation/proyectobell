@@ -1,0 +1,24 @@
+.contenidoCarrito{
+    color: white;
+}
+
+.contenidoCarrito p{
+    padding-bottom: 20px;
+}
+.totalCarrito{
+        color: white; 
+        font-size: 30px;
+        margin-left: 50%;
+        display: flex;
+        width: 105px;
+        height: 32px;
+        flex-shrink: 0;
+
+      
+}
+
+.productoCarr{
+    max-width: 350px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}

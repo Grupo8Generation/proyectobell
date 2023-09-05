@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "cors": "^2.8.5",
-    "react-bootstrap": "^2.8.0",
-    "sweetalert2": "^11.7.27"
-  }
-}

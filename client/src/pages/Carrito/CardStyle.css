@@ -9,15 +9,13 @@
 }
 
 .card {
-
     border-radius: 9.978px;
     background:white;
     box-shadow: 0px 3.6282050609588623px 3.6282050609588623px 0px rgba(0, 0, 0, 0.32);
     max-height: 390px;
     flex-shrink: 0;
     display: flex;
-    width: 250px;
-    height: 390px;
+    max-width: 250px;
     flex-direction: column;
     justify-content: start;
     align-items: start;
@@ -38,11 +36,7 @@
     background: #6F275D;
     color: white;
     border: #6F275D solid;
- 
     margin-left: 18px;
-
-
-
 }
 
 
@@ -60,17 +54,7 @@
     align-items: center;
     flex-shrink: 0;
 margin-left: 18px;
-
-
-
 }
-
-
-
-
-
-
-
 
 .card-precio {
     color: var(--p-1-purple-strong, #48114D);
@@ -93,7 +77,7 @@ margin-left: 18px;
     line-height: normal;
 }
 
-.card-hashtag{
+.card-categoria{
     color: var(--p-1-purple-strong, #48114D);
 text-align: center;
 font-family: Cabin;

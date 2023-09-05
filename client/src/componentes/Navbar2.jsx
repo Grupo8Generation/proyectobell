@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBar2s.css";
+import "./NavBar2s.scss";
 
 const Navbar2 = ({ setSelectedCategory }) => {
   const handleCategoryClick = (category) => {

@@ -6,10 +6,10 @@ import CarritoButton from '../pages/Carrito/CarritoButton';
 
 const NavBar = () => {
     return (
-        <div>
+        <div className='container-fluid'>
 
-            <nav id="menu" className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className='container'>
+            <nav id="menu" className="navbar navbar-expand-lg">
+                <div className='container-fluid'>
                     <img src='src/img/Frame_15-removebg-preview.png' alt="LogoBell"></img>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@ const NavBar = () => {
                                     <NavLink className="nav-link NosLink" to='/home' >Nosotros</NavLink>
                                 </li>
                                 <li className="nav-item text-pink">
-                                    <a className="nav-link " href="#Hashtagss">Pedido personalizado</a>
+                                    <a className="nav-link "  href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" target="blank">Pedido personalizado</a>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink to="/pasarela" className="nav-link " href="#">Envíos</NavLink>
