@@ -5,7 +5,7 @@ import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Footer from '../Footer';
 import { ContenidoDeCarrito } from '../../pages/Carrito/ContenidoDeCarrito';
-import logoBell from "../../img/bell_logo_redondo.png"
+import logoBell from "../Home/img2/bell_logo_redondo.png"
 
 export const Pasarela2 = () => {
 
