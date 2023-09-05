@@ -18,7 +18,8 @@ const AspectosLegales = () => {
                 <div className="col-6">
                     <p className="h2 text-center inTit">Términos y <br />
                         Condiciones del Servicio</p>
-                    <p></p></div>
+                    <p></p>
+                        </div>
                 <div className="col-6">
                     <p className="h2 text-center inTit ">Política de Privacidad <br />de Datos</p>
                     <p className="text-center"></p>
