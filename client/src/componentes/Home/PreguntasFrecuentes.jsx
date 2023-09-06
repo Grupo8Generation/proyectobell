@@ -1,13 +1,17 @@
 import Footer from "../Footer";
 import NavBar from "../NavBar";
 import "./PreguntasFrecuentess.css"
-
+import preguntasImg from "./img2/fondo_faq.svg"
 
 const PreguntasFrecuentes = () =>{
-
+  const backgroundImageStyle = {
+    backgroundImage: `url(${preguntasImg})`,
+    backgroundSize: 'cover', 
+    backgroundPosition: 'center', 
+  };
     return <div>
     <NavBar></NavBar>
-    <div className="container-fluid preguntasFrecuentes">
+    <div className="container-fluid preguntasFrecuentes" style={backgroundImageStyle}>
         <div className=" container-fluid tituloPF h1 text-center">Preguntas frecuentes </div>
         <div className="accordion accordion-flush" id="accordionFlushExample">
   <div className="accordion-item text-center">
