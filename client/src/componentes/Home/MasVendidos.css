@@ -8,7 +8,7 @@
     .cardMAsVendidas {
         flex-direction: column; /* Cambia la dirección de flex a columna */
         align-items: center;
-        padding-left: 50px; /* Centra verticalmente las cards */
+       background-color: #48114D;
     }
 }
 
@@ -38,7 +38,4 @@ a {
     padding-top: 70px;
 }
 
-.rowMas{
-padding-left: 60px;
-    
-}
+
