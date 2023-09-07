@@ -7,7 +7,7 @@ import Card1 from "../pages/Carrito/Card1"
 import "./Vitrinas.css"
 import { ProductosContext } from "../context/ProductosContext"
 import { CarritoContext } from "../context/CarritoContext"
-import personalizado from "../img/personalizado.png";
+import personalizadoImg from "./personalizado.png";
 
 
 
@@ -65,11 +65,14 @@ export const Vitrina = () => {
         
       </div>
       <div className="card-body">
-      <div className="barra-horizontal"></div>
+      <div className="card-imgCon">
+        <img src={personalizadoImg} className="card-img-top" alt="imagen de personalizado" />
+      </div>
+  
         <h6 className="card-hashtag"> #Personalizado</h6>
-        <h4 className="card-title">Elige tu producto</h4>
+        <h4 className="card-title">Dirigete al formulario</h4>
         <h5 className="card-precio">Personalizado</h5>
-        <a id="compraYalg" className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" role="button" target="blank">Pide aquí</a>
+        <a id="compraYalg" className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIFmQgagROpAHQsdnkaSxvcXigx9UdkHgQEBUdjLb3q-7qVw/viewform" role="button" target="blank">Ir al formulario</a>
       </div>
           </div>
             {filteredData.map(Producto => (

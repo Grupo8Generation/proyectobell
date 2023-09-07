@@ -3,12 +3,19 @@
   display: flex;
   flex-wrap: nowrap;
   transition: transform 0.5s ease-in-out;
+  overflow: auto;
 }
 
+
 .card {
-  flex: 0 0 calc(33.33% - 1rem);
+  flex: 1 1 auto; 
   margin-right: 2rem;
   /* Agrega otros estilos para tus tarjetas */
+}
+@media (max-width: 768px) {
+  .card {
+    margin-right: 1rem; /* Reducir el margen en pantallas más pequeñas */
+  }
 }
 
 .SugCarr {
@@ -34,4 +41,11 @@
 
 .carrusel-item{
   background-color: aqua;
+
+}
+.card:last-child {
+  margin-right: 0; /* Eliminar el margen derecho en el último elemento */
+}
+.card-container {
+  display: flex;
 }

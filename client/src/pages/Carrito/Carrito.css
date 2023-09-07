@@ -20,7 +20,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 padding-top: 20px;
-padding-left: 15%;
+
+text-align: center;
   }
 
 main{
@@ -28,8 +29,15 @@ main{
 }
 
 .contenedor-carrito{
-
-  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+@media (max-width: 768px) {
+  .contenedor-carrito {
+    padding: 0; /* Puedes ajustar este valor según tus necesidades */
+  }
 }
 
 .fondoCarrito{
@@ -54,11 +62,7 @@ margin-left: 55%;
 
 }
 
-.titulo-principal{
-padding-top: 25px;
 
-
-} 
 .botonComprarCar{
   display: flex;
 width: 105px;

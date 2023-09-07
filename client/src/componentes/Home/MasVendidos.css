@@ -7,7 +7,8 @@
 @media (max-width: 566px) {
     .cardMAsVendidas {
         flex-direction: column; /* Cambia la dirección de flex a columna */
-        align-items: center; /* Centra verticalmente las cards */
+        align-items: center;
+        padding-left: 50px; /* Centra verticalmente las cards */
     }
 }
 
@@ -39,7 +40,6 @@ a {
 }
 
 .rowMas{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 150px;
+padding-left: 60px;
+    
 }

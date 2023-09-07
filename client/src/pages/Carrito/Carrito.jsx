@@ -65,7 +65,7 @@ function Carrito() {
                                 </div>
                             ))}
                             <div className='container-fluid totalBoton'>
-                            <div className='totalCarritoti' >
+                            <div className='container-fluid  totalCarritoti' >
                                 <strong>TOTAL:</strong> ${calcularTotal()}
                             </div>
                             <button className="btn botonComprarCar" onClick={handleCompra} disabled={listaCompras.length < 1}>COMPRAR</button>

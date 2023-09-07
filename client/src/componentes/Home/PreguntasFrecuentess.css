@@ -1,4 +1,13 @@
 
+@media screen and (max-width: 768px) {
+   
+    .accordion {
+      max-height: 450px; 
+      overflow-y: scroll; 
+    }
+  }
+  
+
 .preguntasFrecuentes {
     min-height: 580px;
   
