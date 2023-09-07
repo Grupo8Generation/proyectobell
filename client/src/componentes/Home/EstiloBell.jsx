@@ -1,12 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './EstiloBells.css'
-
+import backgroundImage1 from './img2/fondo_estiloBell.png';
 
 
 const EstiloBell = () =>{
+    const backgroundImageStyle = {
+        backgroundImage: `url(${backgroundImage1})`,
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+      };
+
+
 return<>
-<div className="container-fluid " id="estiloBell">
+<div className="container-fluid " id="estiloBell" style={backgroundImageStyle}>
 <div className=" textoEstilo   ">
     <span className=" EstiloBellH fw-bold display-4">#EstiloBell </span> 
     <br></br>

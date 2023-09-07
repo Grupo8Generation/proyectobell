@@ -4,18 +4,14 @@
 }
 
 
-
 .navbar {
     background-color: white;
-    padding-left: 180px;
+    padding-left: 12%;
     display: flex;
-  
     height: 98px;
-    justify-content: center;
-    align-items: center;
     flex-shrink: 0;
-
-
+    z-index: 111;
+    align-items: flex-start;
 }
 
 div nav img {
@@ -46,13 +42,11 @@ div nav img {
     background-color: #48114D;
 }
 
-.navbar-toggler {
-    margin: 30px;
-    margin-right: 100px;
-}
+
 
 .navbar-collapse {
     padding-left: px;
+    margin-top: -10px;
 }
 .navbar-nav .nav-link.active, .navbar-nav  {
     color:#48114D;
@@ -60,4 +54,15 @@ div nav img {
 
 .nav-link.active:hover{
     color: white;
+}
+.custom-navbar-bg{
+    background-color: white;
+}
+
+#logobell{
+
+}
+
+.navbar-toggler{
+    margin-right: 30px;
 }

@@ -4,13 +4,19 @@
 }
 
 
+@media (max-width: 566px) {
+    .cardMAsVendidas {
+        flex-direction: column; /* Cambia la dirección de flex a columna */
+        align-items: center; /* Centra verticalmente las cards */
+    }
+}
 
 .LosMas {
     background-image: url(src/img/fondo_cards.svg);
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 771px;
+    height: auto;
 }
 
 .LosMas h1,
@@ -34,4 +40,6 @@ a {
 
 .rowMas{
     padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 150px;
 }

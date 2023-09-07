@@ -1,10 +1,15 @@
 import "./Nosotross.css"
-import React from 'react';
-
+import fondo_nosotros from "./img2/fondo_nosotros.svg"
 
 const Nosotros= ()=>{
+
+    const backgroundImageStyle = {
+        backgroundImage: `url(${fondo_nosotros})`,
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+      };
     return<>
-    <div className="Nosotros-cont container-fluid" id="seccion3">
+    <div className="Nosotros-cont container-fluid" id="seccion3" style={backgroundImageStyle}>
 
 
 <span className=" Nos-hash fw-bold display-4"> #Nosotros </span>
