@@ -1,28 +1,22 @@
-
-.layout1{
-    display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-}
-
-.bottom-bar {
-    height: 200px;
-    color:  #48114D;
-  }
-
-  .bottom-bar-logo {
-    font-weight: bold;
-  }
-
-  .bottom-bar-link {
-    color:  white;
-    text-decoration: none;
-  }
-
-.contFoo{
-  background-color: #48114D;
-}
-.LinkLegal{
+/* Establecer estilos generales para el footer */
+.contFoo {
+  background-color: #48114d;
+  padding: 20px 0;
   color: white;
+}
+
+/* Estilizar los elementos de la lista */
+.bottom-bar-section {
+  text-align: center;
+}
+
+.bottom-bar-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilizar el logo y hacerlo más visible */
+.bottom-bar-logo {
+  font-weight: bold;
+  color: white; /* Cambiar el color del logo si es necesario */
 }

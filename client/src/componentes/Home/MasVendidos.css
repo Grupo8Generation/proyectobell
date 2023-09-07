@@ -23,7 +23,6 @@
 .LosMas h1,
 a {
     color: var(--bs-danger);
-    padding-top: 30px;
     text-align: center;
 }
 
